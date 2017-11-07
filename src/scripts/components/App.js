@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import logo from '../../images/logo.svg';
+import Home from './homepage/Home';
 import '../../styles/App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        
+        <Home/>
       </div>
     );
   }

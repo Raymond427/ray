@@ -1,8 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import libraries, { React, Enzyme } from './testLibraries';
 import App from '../components/App';
 
 it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
+  Enzyme.shallow(<App />);
 });

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Tool from '../Tool';
-import skillData from '../../../data/skills.json';
+import toolData from '../../../data/tools.json';
 
 
 class SoftwareEngineer extends Component {
@@ -24,7 +24,7 @@ class SoftwareEngineer extends Component {
   }
 
   _renderSkills() {
-    return skillData.map((tool) =>
+    return toolData.map((tool) =>
             <Tool key={tool.id} img={tool.img} name={tool.name}/>
           );
   }

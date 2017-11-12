@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import SocialMediaLink from '../SocialMediaLink.js';
-import data from '../../../data/data.js';
+import socialMediaData from '../../../data/socialMedia.json';
 
 class Home extends Component {
   render() {
@@ -31,7 +31,7 @@ class Home extends Component {
   }
 
   _renderSocialMediaLinks() {
-    return data.socialMediaLinks.map((socialMedia) =>
+    return socialMediaData.map((socialMedia) =>
       <li key={socialMedia.id}>
         <SocialMediaLink
         name={socialMedia.name}

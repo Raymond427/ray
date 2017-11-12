@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import Tool from '../Tool';
-import data from '../../../data/data.js';
+import skillData from '../../../data/skills.json';
 
 
 class SoftwareEngineer extends Component {
   render() {
-    const tools = this._renderTools();
+    const tools = this._renderSkills();
     return(
       <div className="SoftwareEngineer">
         <div className="SoftwareEngineer__background">
@@ -23,8 +23,8 @@ class SoftwareEngineer extends Component {
     );
   }
 
-  _renderTools() {
-    return data.tools.map((tool) =>
+  _renderSkills() {
+    return skillData.map((tool) =>
             <Tool key={tool.id} img={tool.img} name={tool.name}/>
           );
   }

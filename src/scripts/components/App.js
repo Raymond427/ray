@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Home from './homepage/Home';
-import Entrepreneur from './homepage/Entrepreneur';
+import Hobby from './homepage/Hobby';
+import hobbyData from '../../data/hobbies.json';
 import SoftwareEngineer from './homepage/SoftwareEngineer';
 import '../../styles/App.css';
 
@@ -9,8 +10,9 @@ class App extends Component {
     return (
       <div className="App">
         <Home/>
-        <Entrepreneur/>
+        <Hobby hobby={hobbyData[0]}/>
         <SoftwareEngineer/>
+        <Hobby hobby={hobbyData[1]}/>
       </div>
     );
   }

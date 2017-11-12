@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "type": "entrepreneur",
+    "description": "",
+    "orgs": [
+      {
+        "id": 1,
+        "name": "advancing innovative minds",
+        "logo": "#",
+        "img": "#",
+        "description": ""
+      },
+      {
+        "id": 2,
+        "name": "youxpert",
+        "logo": "#",
+        "img": "#",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "community volunteer",
+    "description": "",
+    "orgs": [
+      {
+        "id": 1,
+        "name": "code2040",
+        "logo": "#",
+        "img": "#",
+        "description": ""
+      },
+      {
+        "id": 2,
+        "name": "national society of black engineers",
+        "logo": "#",
+        "img": "#",
+        "description": ""
+      }
+    ]
+  }
+]

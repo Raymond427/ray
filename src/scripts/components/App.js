@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Home from './homepage/Home';
+import Intro from './homepage/Intro';
 import Hobby from './homepage/Hobby';
 import hobbyData from '../../data/hobbies.json';
 import SoftwareEngineer from './homepage/SoftwareEngineer';
@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Home/>
+        <Intro/>
         <Hobby hobby={hobbyData[0]}/>
         <SoftwareEngineer/>
         <Hobby hobby={hobbyData[1]}/>

@@ -2,20 +2,20 @@ import React, { Component } from 'react';
 import SocialMediaLink from '../SocialMediaLink.js';
 import socialMediaData from '../../../data/socialMedia.json';
 
-class Home extends Component {
+class Intro extends Component {
   render() {
     const socialMedia = this._renderSocialMediaLinks();
 
     return(
-      <div className="Home">
-        <div className="Home-background--image">
-          <div className="Home-background--shade">
-            <div className="Home-social-links">
+      <div className="Intro">
+        <div className="Intro-background--image">
+          <div className="Intro-background--shade">
+            <div className="Intro-social-links">
               <ul>
                 {socialMedia}
               </ul>
             </div>
-            <div className="Home-content">
+            <div className="Intro-content">
               <h1>Hi, I'm Raymond</h1>
               <h2>I'm a Community Volunteer, Entrepreneur, Software Engineer and
               Web Designer. I'm interested in creating software that helps
@@ -42,4 +42,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Intro;

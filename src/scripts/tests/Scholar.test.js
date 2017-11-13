@@ -1,6 +1,6 @@
 import libraries, { React, shallow } from './testLibraries';
-import Home from '../components/homepage/Home';
+import Scholar from '../components/homepage/Scholar';
 
 it('renders without crashing', () => {
-  shallow(<Home />);
+  shallow(<Scholar/>);
 });

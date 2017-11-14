@@ -10,6 +10,8 @@ class Hobby extends Component {
         <div className="Hobby__info">
           <h2>{this.props.hobby.type}</h2>
           <p>{this.props.hobby.description}</p>
+        </div>
+        <div className="Org__wrapper">
           {orgs}
         </div>
       </div>

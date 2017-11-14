@@ -7,9 +7,10 @@ describe('Intro', () => {
     shallow(<Intro />);
   });
 
+  const socialMediaDataLength = socialMediaData.length;
+  const socialMediaIntroLength = shallow(<Intro/>).find("SocialMediaLink").length;
+
   it('renders all social media links', ()=> {
-    const socialMediaDataLength = socialMediaData.length;
-    const socialMediaIntroLength = shallow(<Intro/>).find("SocialMediaLink").length;
     expect(socialMediaIntroLength).toEqual(socialMediaDataLength);
   });
 });

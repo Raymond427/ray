@@ -8,15 +8,13 @@ class SoftwareEngineer extends Component {
     const tools = this._renderSkills();
     return(
       <div className="SoftwareEngineer">
-        <div className="SoftwareEngineer__background">
-          <div className="SoftwareEngineer__shade">
-            <div className="SoftwareEngineer__container">
-              <h2>Software Engineer</h2>
-              <p>I'm a full stack software engineer that has worked for
-              Hewlett Packard in Oregon and Carbon Five in San Francisco.</p>
-              <button>check out my projects</button>
-              {tools}
-            </div>
+        <div className="SoftwareEngineer__shade">
+          <div className="SoftwareEngineer__container">
+            <h2>Software Engineer</h2>
+            <p>I'm a full stack software engineer that has worked for
+            Hewlett Packard in Oregon and Carbon Five in San Francisco.</p>
+            <button>check out my projects</button>
+            {tools}
           </div>
         </div>
       </div>

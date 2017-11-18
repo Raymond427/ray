@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Personal Site",
+    "type": "React and Redux Web Application",
+    "description": "",
+    "img": "#",
+    "codeURL": "#",
+    "siteURL": "#",
+    "color": "#000000"
+  },
+  {
+    "id": 2,
+    "name": "Youxpert",
+    "type": "React Web Application",
+    "description": "",
+    "img": "#",
+    "codeURL": "#",
+    "siteURL": "#",
+    "color": "#000000"
+  },
+  {
+    "id": 3,
+    "name": "Advancing Innovative Minds",
+    "type": "Ruby on Rails Web Application",
+    "description": "",
+    "img": "#",
+    "codeURL": "#",
+    "siteURL": "#",
+    "color": "#000000"
+  },
+  {
+    "id": 4,
+    "name": "Creating a Digital Pedagogy: Exploring Online Learning Methods to Increase STEM Graduates",
+    "type": "Published Research Paper",
+    "description": "",
+    "img": "#",
+    "codeURL": "#",
+    "siteURL": "#",
+    "color": "#000000"
+  }
+]

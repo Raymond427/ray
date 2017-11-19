@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Co-Founder & President",
+    "organization": "Advancing Innovative Minds",
+    "startingDate": "September 2015",
+    "endingDate": "December 2015",
+    "tasks": [
+      "Created a student organization to gather the university’s most innovative students and entrepreneurial resources to turn ideas into startup companies",
+      "Gained fifty new members in four months, and held seminars with small business owners every two weeks.",
+      "Designed the club web application with Rails, HTML, Sass and RSpec with built in online donations and user newsletter sign-up features, increasing membership sign ups by 150% and donations by 100%.",
+      "Selected as a finalist in the North Carolina Social Entrepreneurship Competition.",
+      "Won Best New Organization at UNC Charlotte out of 51 new organizations for demonstrating consistent flexibility, initiative, creativity, and perseverance."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Vice President & PCI Commitee Member",
+    "organization": "National Society of Black Engineers",
+    "startingDate": "October 2011",
+    "endingDate": "May 2015",
+    "tasks": [
+      "Disseminating information among chapter members and alumni through the NSBE website",
+      "Volunteer speaker for middle school academic development seminars",
+      "Participating in Community Service and Mentoring Activities",
+      "Created the new official website for the NSBE chapter at UNC Charlotte"
+    ]
+  }
+]

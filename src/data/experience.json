@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "title": "Software Engineer & Co-Founder",
+    "company": "Youxpert",
+    "img": "#",
+    "startDate": "Janurary 2016",
+    "endDate": "June 2017",
+    "acheivements": [
+      "Architected Ruby on Rails healthcare platform for San Francisco based startup MPI Cognition to demonstrate their patient record file system service to 15+ doctors during user testing sessions.",
+      "Engineered ecommerce website Relax, Let Us Work using Wix, SEO and Google Analytics allowing users to purchase personal concierge services online, increasing sales by 40%",
+      "Conducted user research, cognitive walkthroughs and A/B testing for parental control startup, Zabra , which led to 50% increase in site visitors per week.",
+      "Developed company corporate site using JavaScript, ES6, and ReactJS, increasing sales by > 60% after launch."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Full Stack Software Engineering Intern",
+    "company": "Carbon Five",
+    "img": "#",
+    "startDate": "May 2016",
+    "endDate": "August 2016",
+    "acheivements": [
+      "Met with startup founders daily to discuss features, suggest designs and explain agile development",
+      "Gave advice during scrum meetings and strategized methods for solving software issues in a short-cycle, iterative, and agile environment",
+      "Developed credit card and personal information authentication system using JavaScript, ReactJS, Redux and Ruby on Rails for Swell Investing’s stock trading platform.",
+      "Followed TDD in creating socially responsible investment system, achieving 90%+ code coverage writing 60+ unit tests utilizing Jest, Enzyme and RSpec.",
+      "Developed the user interface and the PDF generator for a React app that gets parents and kids together for an agreement about being responsible with new technology. Increasing visitors by 30%.",
+      "Re-engineered front end and implemented Instagram feed to internal company dashboard using Sass, Ruby and Sinatra, increasing employee participation in all three offices by over 40%.",
+      "Added features to an internal company Slack Bot using the Ruby Slack Client library, improving employee timekeeping"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Full Stack Software Engineering Intern",
+    "company": "Hewlett-Packard",
+    "img": "#",
+    "startDate": "May 2015",
+    "endDate": "August 2015",
+    "acheivements": [
+      "Built, unit tested and added features to three Ruby on Rails web applications in 11 weeks using HTML5, CSS3, JavaScript, Bootstrap, RSpec, and Git in a Linux environment",
+      "Wrote unit tests with RSpec and built the user interface with HTML and Sass for a customer-facing social media web app that received acclaim at demos in New York and Portland and The QVC Shopping Network.",
+      "Designed automated tests using RSpec that measured the grading accuracy of a test grading app for local Oregon college students. Resulting in 0 bug reports after release.",
+      "Gave advice during scrum meetings and strategized methods for solving software issues in a short-cycle, iterative, and agile environment",
+      "Participated in usability testing events with cognitive walkthroughs"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "College of Engineering Dean's Office Assistant",
+    "company": "The University of North Carolina at Charlotte",
+    "img": "#",
+    "startDate": "October 2011",
+    "endDate": "May 2014",
+    "acheivements": [
+      "Proofread documents and assembled materials for staff events, conferences and meetings",
+      "Created digital copies of budget archives, increasing office storage space by 30%",
+      "Assisted event coordinator in planning for an average of 3 office events per semester."
+    ]
+  }
+]

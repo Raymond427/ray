@@ -4,41 +4,67 @@
     "name": "Introduction to Computer Science",
     "school": "MIT",
     "url": "#",
-    "img": "#"
+    "img": "#",
+    "logo": "#",
+    "description": [
+      "Tackled several famous algorithms (Tower of Hanoi, The Knapsack Problem, Newton Raphson, and many search methods)",
+      "Learned the fundamentals of data structures, recursion, testing and debugging"
+    ]
   },
   {
     "id": 2,
     "name": "Engineering Software As A Service",
     "school": "UC Berkeley",
     "url": "#",
-    "img": "#"
+    "img": "#",
+    "logo": "#",
+    "description": [
+      "Learned several software development processes (Agile (XP), Spiral, Waterfall & Rational Unified Process)",
+      "Built a web application through Linux using Ruby on Rails, GitHub, and The Heroku Cloud Platform"
+    ]
   },
   {
     "id": 3,
     "name": "Leaders of Learning",
     "school": "Harvard",
     "url": "#",
-    "img": "#"
+    "img": "#",
+    "logo": "#",
+    "description": [
+      "Studied how leadership works in different learning environments and practiced imagining the future of learning"
+    ]
   },
   {
     "id": 4,
     "name": "HTML5",
     "school": "W3C",
     "url": "#",
-    "img": "#"
+    "img": "#",
+    "logo": "#",
+    "description": [
+      "Learned all of the new features of HTML5 as well as making HTML5 apps"
+    ]
   },
   {
     "id": 5,
     "name": "Introduction to Educational Technology",
     "school": "MIT",
     "url": "#",
-    "img": "#"
+    "img": "#",
+    "logo": "#",
+    "description": [
+      "Learned the history of educational technology and analyzed how different technologies teach users new information"
+    ]
   },
   {
     "id": 6,
     "name": "Introduction to Cloud Computing",
     "school": "IEEE",
     "url": "#",
-    "img": "#"
+    "img": "#",
+    "logo": "#",
+    "description": [
+      "Learned the difference between PaaS, IaaS and SaaS, as well as when to use them"
+    ]
   }
 ]

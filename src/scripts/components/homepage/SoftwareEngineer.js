@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Tool from '../Tool';
 import toolData from '../../../data/tools.json';
 
-
 class SoftwareEngineer extends Component {
   render() {
     const tools = this._renderTools();

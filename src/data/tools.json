@@ -2,71 +2,85 @@
   {
     "id": 1,
     "name": "HTML5",
-    "img": "#"
+    "img": "#",
+    "skillLevel": 0
   },
   {
     "id": 2,
     "name": "CSS3",
-    "img": "#"
+    "img": "#",
+    "skillLevel": 0
   },
   {
     "id": 3,
     "name": "JavaScript",
-    "img": "#"
+    "img": "#",
+    "skillLevel": 0
   },
   {
     "id": 4,
     "name": "Ruby",
-    "img": "#"
+    "img": "#",
+    "skillLevel": 0
   },
   {
     "id": 5,
     "name": "Python",
-    "img": "#"
+    "img": "#",
+    "skillLevel": 0
   },
   {
     "id": 6,
     "name": "Rails",
-    "img": "#"
+    "img": "#",
+    "skillLevel": 0
   },
   {
     "id": 7,
     "name": "React",
-    "img": "#"
+    "img": "#",
+    "skillLevel": 0
   },
   {
     "id": 8,
     "name": "Redux",
-    "img": "#"
+    "img": "#",
+    "skillLevel": 0
   },
   {
     "id": 9,
     "name": "Webpack",
-    "img": "#"
+    "img": "#",
+    "skillLevel": 0
   },
   {
     "id": 10,
     "name": "Heroku",
-    "img": "#"
+    "img": "#",
+    "skillLevel": 0
   },
   {
     "id": 11,
     "name": "Ubuntu",
-    "img": "#"
+    "img": "#",
+    "skillLevel": 0
   },
   {
     "id": 12,
     "name": "PostgreSQL",
-    "img": "#"
+    "img": "#",
+    "skillLevel": 0
   },
   {
     "id": 13,
     "name": "Unity",
-    "img": "#"
+    "img": "#",
+    "skillLevel": 0
   },
   {
     "id": 14,
     "name": "GitHub",
-    "img": "#"
+    "img": "#",
+    "skillLevel": 0
   }
 ]

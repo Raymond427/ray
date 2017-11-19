@@ -5,7 +5,7 @@ import toolData from '../../../data/tools.json';
 
 class SoftwareEngineer extends Component {
   render() {
-    const tools = this._renderSkills();
+    const tools = this._renderTools();
     return(
       <div className="SoftwareEngineer">
         <div className="SoftwareEngineer__shade">
@@ -21,7 +21,7 @@ class SoftwareEngineer extends Component {
     );
   }
 
-  _renderSkills() {
+  _renderTools() {
     return toolData.map((tool) =>
             <Tool key={tool.id} img={tool.img} name={tool.name}/>
           );

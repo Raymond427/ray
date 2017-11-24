@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Certificate from '../Certificate';
-import certificateData from '../../../data/certificate.json';
+import certificateData from '../../../data/certificates';
 
 class Scholar extends Component {
   render() {

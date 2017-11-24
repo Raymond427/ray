@@ -4,11 +4,15 @@ import toolData from '../../data/tools';
 import socialMediaData from '../../data/socialMedia';
 import SocialMediaLink from './SocialMediaLink';
 import SkillLevel from './SkillLevel';
+import Experience from './Experience';
+import experienceData from '../../data/experience';
 
 class Resume extends Component {
   render() {
     const socialMedia = this._renderSocialMediaLinks();
     const skillLevels = this._renderSkillLevels();
+    const workExperiences = this._renderWorkExperiences();
+    const volunteerExperiences = this._renderVolunteerExperiences();
 
     return(
       <div className="Resume">
@@ -28,6 +32,23 @@ class Resume extends Component {
             </div>
           </div>
         </aside>
+        <div className="Experiences">
+          <h2>Experiences</h2>
+          {workExperiences}
+        </div>
+        <div className="Volunteering">
+          <h2>Volunteering Experience</h2>
+          {volunteerExperiences}
+        </div>
+        <div className="Certifications">
+          <h2>Certifications</h2>
+        </div>
+        <div className="Publications">
+          <h2>Publications</h2>
+        </div>
+        <div className="Honors">
+          <h2>Honors and Awards</h2>
+        </div>
         <button className="Resume__download-button">download resume pdf</button>
       </div>
     );
@@ -50,7 +71,31 @@ class Resume extends Component {
         key={skill.id}
         name={skill.name}
         skillLevel={skill.skillLevel} />
-    )
+    );
+  }
+  _renderWorkExperiences() {
+    return experienceData.workExperience.map((ex) =>
+      <Experience
+        key={ex.id}
+        title={ex.title}
+        company={ex.company}
+        logo={ex.logo}
+        startDate={ex.startDate}
+        endDate={ex.endDate}
+        achievements={ex.achievements} />
+    );
+  }
+  _renderVolunteerExperiences() {
+    return experienceData.volunteerExperience.map((ex) =>
+      <Experience
+        key={ex.id}
+        title={ex.title}
+        company={ex.company}
+        logo={ex.logo}
+        startDate={ex.startDate}
+        endDate={ex.endDate}
+        achievements={ex.achievements} />
+    );
   }
 }
 

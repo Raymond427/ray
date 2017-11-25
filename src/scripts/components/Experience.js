@@ -7,19 +7,19 @@ class Experience extends Component {
       <div className="Experience">
         <img className="Experience__logo" alt={`${this.props.company}`} src={`${this.props.img}`} />
         <div className="Experience__info">
-        <h3 className="Experience__title">{this.props.title}</h3>
-        <p className="Experience__company">{this.props.company}</p>
-        <p className="Experience__date">{`${this.props.startDate} - ${this.props.endDate}`}</p>
-        <ul className="Experience__achievements">
-          {achievements}
-        </ul>
+          <h3 className="Experience__title">{this.props.title}</h3>
+          <h4 className="Experience__company">{this.props.company}</h4>
+          <h4 className="Experience__date">{`${this.props.startDate} - ${this.props.endDate}`}</h4>
+          <ul className="Experience__achievements">
+            {achievements}
+          </ul>
         </div>
       </div>
     );
   }
   _renderachievements() {
     return this.props.achievements.map((ach) =>
-      <li key={ach.id} className="Experience__achievement">{ach}</li>
+      <li key={ach.id} className="Experience__achievement">{ach.description}</li>
     );
   }
 }

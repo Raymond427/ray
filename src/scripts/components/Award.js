@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import awardData from '../../data/awards';
 
 class Award extends Component {
   render() {

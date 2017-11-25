@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 
 class Project extends Component {
   render() {
-    const viewCodeLink = this._renderLinkIfPresent(this.props.codeURL, "code", "#");
-    const viewSiteLink = this._renderLinkIfPresent(this.props.siteURL, "site", "#");
+    const viewCodeLink = this._renderLinkIfPresent(this.props.codeURL, "code", this.props.img);
+    const viewSiteLink = this._renderLinkIfPresent(this.props.siteURL, "site", this.props.img);
 
     return(
       <div className="Project" style={{backgroundImage: `url(${this.props.img})`}}>

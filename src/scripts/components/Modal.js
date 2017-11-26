@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
+import ContactForm from './ContactForm';
 
 class Modal extends Component {
   render() {
     return(
       <div className="Modal">
-        <div className="Modal__content">
-        </div>
+        <ContactForm/>
       </div>
     );
   }

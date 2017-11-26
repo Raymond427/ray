@@ -9,6 +9,7 @@ describe('Certificate', () => {
   const mockCertificate = { id: 1, name: "foo", school: "buzzU", url: "www.bar.com", img: "#" };
   const wrapperElement = shallow(
     <Certificate
+      type={`home`}
       name={mockCertificate.name}
       url={mockCertificate.url}
       img={mockCertificate.img}
@@ -28,7 +29,7 @@ describe('Certificate', () => {
     expect(pElement.type).toEqual('p');
     expect(pElement.props.children).toEqual(mockCertificate.name);
   });
-  
+
   it('renders the certificate school', () => {
     expect(p2Element.type).toEqual('p');
     expect(p2Element.props.children).toEqual(mockCertificate.school);

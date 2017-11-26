@@ -6,6 +6,8 @@ import Award from './Award';
 import experienceData from '../../data/experience';
 import publicationData from '../../data/publications';
 import awardData from '../../data/awards';
+import Certificate from './Certificate'
+import certificateData from '../../data/certificates';
 
 class Resume extends Component {
   render() {
@@ -13,6 +15,7 @@ class Resume extends Component {
     const volunteerExperiences = this._renderVolunteerExperiences();
     const publications = this._renderPublications();
     const awards = this._renderAwards();
+    const certificates = this._renderCertificates();
 
     return(
       <div className="Resume">
@@ -28,6 +31,7 @@ class Resume extends Component {
         </div>
         <div className="Certifications">
           <h2>Certifications</h2>
+          {certificates}
         </div>
         <div className="Publications">
           <h2>Publications</h2>
@@ -86,6 +90,19 @@ class Resume extends Component {
         organization={award.organization}
         dateReceived={award.dateReceived}
         description={award.description} />
+    );
+  }
+
+  _renderCertificates() {
+    return certificateData.map((cert) =>
+      <Certificate
+        key={cert.id}
+        type={`resume`}
+        img={cert.img}
+        name={cert.name}
+        school={cert.school}
+        url={cert.url}
+        skillsLearned={cert.skillsLearned} />
     );
   }
 }

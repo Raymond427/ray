@@ -21,6 +21,7 @@ class Scholar extends Component {
     return certificateData.map((cert) =>
       <Certificate
         key={cert.id}
+        type={`home`}
         img={cert.img}
         name={cert.name}
         school={cert.school} />);

@@ -11,15 +11,17 @@ import certificateData from '../../data/certificates';
 
 class Resume extends Component {
   render() {
-    const workExperiences = this._renderWorkExperiences();
-    const volunteerExperiences = this._renderVolunteerExperiences();
+    const workExperiences = this._renderExperiences('workExperience');
+    const volunteerExperiences = this._renderExperiences('volunteerExperience');
     const publications = this._renderPublications();
     const awards = this._renderAwards();
     const certificates = this._renderCertificates();
 
     return(
       <div className="Resume">
-        <button className="Resume__download-button">download resume pdf</button>
+        <a className="Resume__download-link" download="%PUBLIC_URL%/data/RaymondFerrellResume.pdf">
+          <button className="Resume__download-button">download resume pdf</button>
+        </a>
         <ResumeInfo/>
         <div className="Experiences">
           <h2>Experiences</h2>
@@ -45,21 +47,8 @@ class Resume extends Component {
     );
   }
 
-  _renderWorkExperiences() {
-    return experienceData.workExperience.map((ex) =>
-      <Experience
-        key={ex.id}
-        title={ex.title}
-        company={ex.company}
-        logo={ex.logo}
-        startDate={ex.startDate}
-        endDate={ex.endDate}
-        achievements={ex.achievements} />
-    );
-  }
-
-  _renderVolunteerExperiences() {
-    return experienceData.volunteerExperience.map((ex) =>
+  _renderExperiences(type) {
+    return experienceData[type].map((ex) =>
       <Experience
         key={ex.id}
         title={ex.title}

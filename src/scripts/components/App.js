@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import Resume from './Resume';
+import HomeWrapper from './HomeWrapper';
+import NavBar from './NavBar';
 import '../../styles/App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Resume/>
+        <NavBar/>
+        <HomeWrapper/>
       </div>
     );
   }

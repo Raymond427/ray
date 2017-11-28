@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SocialMediaLink from '../SocialMediaLink.js';
 import socialMediaData from '../../../data/socialMedia.json';
+import { Link } from 'react-router-dom';
 
 class Intro extends Component {
   render() {
@@ -20,9 +21,8 @@ class Intro extends Component {
               <h2>I'm a Community Volunteer, Entrepreneur, Software Engineer and
               Web Designer. I'm interested in creating software that helps
               underpriviledged people find their passion and reach their potential.</h2>
-              <button>check out my resume</button>
-              <button>check out my projects</button>
-              <button>contact me</button>
+              <Link to='/resume'><button>check out my resume</button></Link>
+              <Link to='/projects'><button>check out my projects</button></Link>
             </div>
           </div>
         </div>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Certificate from '../Certificate';
 import certificateData from '../../../data/certificates';
+import { Link } from 'react-router-dom';
 
 class Scholar extends Component {
   render() {
@@ -11,7 +12,7 @@ class Scholar extends Component {
         <p>I'm an advocate for making education more accessible using
         technology, my biggest hobby is collecting certificates from
         online university courses</p>
-        <button>check out my published research on stem education</button>
+        <Link to='/projects'><button>check out my published research on stem education</button></Link>
         {certificates}
       </div>
     );

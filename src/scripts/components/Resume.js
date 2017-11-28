@@ -19,7 +19,7 @@ class Resume extends Component {
 
     return(
       <div className="Resume">
-        <a className="Resume__download-link" download="%PUBLIC_URL%/data/RaymondFerrellResume.pdf">
+        <a className="Resume__download-link" download="%PUBLIC_URL%/../src/data/RaymondFerrellResume">
           <button className="Resume__download-button">download resume pdf</button>
         </a>
         <ResumeInfo/>

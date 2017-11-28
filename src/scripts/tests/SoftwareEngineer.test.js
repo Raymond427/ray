@@ -22,7 +22,7 @@ describe('Software Engineer', () => {
   });
 
   it('renders the project button', () => {
-    expect(wrapperContent[2].type).toEqual('button');
+    expect(wrapper.find('.SoftwareEngineer__project-button').length).toEqual(1);
   });
 
   it('renders all tools', () => {

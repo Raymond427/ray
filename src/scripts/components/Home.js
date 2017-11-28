@@ -5,10 +5,10 @@ import Hobby from './homepage/Hobby';
 import Scholar from './homepage/Scholar';
 import hobbyData from '../../data/hobbies.json';
 
-class HomeWrapper extends Component {
+class Home extends Component {
   render() {
     return(
-      <div className="HomeWrapper">
+      <div className="Home">
         <Intro/>
         <SoftwareEngineer/>
         <Hobby hobby={hobbyData[0]}/>
@@ -19,4 +19,4 @@ class HomeWrapper extends Component {
   }
 }
 
-export default HomeWrapper;
+export default Home;

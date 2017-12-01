@@ -6,16 +6,19 @@ describe('ContactForm', () => {
     shallow(<ContactForm/>);
   });
   const wrapper = shallow(<ContactForm/>);
-  it('renders the name field', () => {
-    expect(wrapper.find('.ContactForm__name').length).toEqual(1);
+  it('renders the first name field', () => {
+    expect(wrapper.find('#ContactForm__first-name').length).toEqual(1);
+  });
+  it('renders the last name field', () => {
+    expect(wrapper.find('#ContactForm__last-name').length).toEqual(1);
   });
   it('renders the email field', () => {
-    expect(wrapper.find('.ContactForm__email').length).toEqual(1);
+    expect(wrapper.find('#ContactForm__email').length).toEqual(1);
   });
   it('renders the phone field', () => {
-    expect(wrapper.find('.ContactForm__phone').length).toEqual(1);
+    expect(wrapper.find('#ContactForm__phone').length).toEqual(1);
   });
   it('renders the message textarea', () => {
-    expect(wrapper.find('.ContactForm__message').length).toEqual(1);
+    expect(wrapper.find('#ContactForm__message').length).toEqual(1);
   });
 });

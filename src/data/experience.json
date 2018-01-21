@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Software Engineer & Co-Founder",
       "company": "Youxpert",
-      "logo": "#",
+      "logo": "youxpertIcon.png",
       "startDate": "Janurary 2016",
       "endDate": "June 2017",
       "achievements": [
@@ -27,7 +27,7 @@
       "id": 2,
       "title": "Full Stack Software Engineering Intern",
       "company": "Carbon Five",
-      "logo": "#",
+      "logo": "carbonFive.png",
       "startDate": "May 2016",
       "endDate": "August 2016",
       "achievements": [
@@ -58,7 +58,7 @@
       "id": 3,
       "title": "Full Stack Software Engineering Intern",
       "company": "Hewlett-Packard",
-      "logo": "#",
+      "logo": "hp.png",
       "startDate": "May 2015",
       "endDate": "August 2015",
       "achievements": [
@@ -83,7 +83,7 @@
       "id": 4,
       "title": "College of Engineering Dean's Office Assistant",
       "company": "The University of North Carolina at Charlotte",
-      "logo": "#",
+      "logo": "uncc.png",
       "startDate": "October 2011",
       "endDate": "May 2014",
       "achievements": [
@@ -105,7 +105,7 @@
       "id": 1,
       "title": "Co-Founder & President",
       "company": "Advancing Innovative Minds",
-      "logo": "#",
+      "logo": "aimIcon.png",
       "startDate": "September 2015",
       "endDate": "December 2015",
       "achievements": [
@@ -135,7 +135,7 @@
       "id": 2,
       "title": "Vice President & PCI Commitee Member",
       "company": "National Society of Black Engineers",
-      "logo": "#",
+      "logo": "nsbeIcon.png",
       "startDate": "October 2011",
       "endDate": "May 2015",
       "achievements": [

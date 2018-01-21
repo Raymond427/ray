@@ -7,7 +7,7 @@ class SoftwareEngineer extends Component {
   render() {
     const tools = this._renderTools();
     return(
-      <div className="SoftwareEngineer">
+      <div className="SoftwareEngineer" style={{backgroundImage: `url(${require(`../../../images/softwareEngineer.jpeg`)})`}}>
         <div className="SoftwareEngineer__shade">
           <div className="SoftwareEngineer__container">
             <h2>Software Engineer</h2>

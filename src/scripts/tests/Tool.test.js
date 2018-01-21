@@ -3,10 +3,14 @@ import Tool from '../components/Tool';
 
 describe('Tool', () => {
   it('renders without crashing', () => {
-    expect(shallow(<Tool/>).exists()).toEqual(true);
+    expect(shallow(
+      <Tool
+      name={mockTool.name}
+      img={mockTool.img}/>
+    ).exists()).toEqual(true);
   });
 
-  const mockTool = { id: 1, name: "foo", img: "#" };
+  const mockTool = { id: 1, name: "foo", img: "css3.png" };
   const wrapperElements = shallow(
     <Tool
       name={mockTool.name}

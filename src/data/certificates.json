@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Introduction to Computer Science",
     "school": "MIT",
-    "logo": "#",
+    "logo": "mit.png",
     "dateRecieved": "April 2014",
     "url": "https://s3.amazonaws.com/verify.edx.org/downloads/e975c0e558764417b4701e3a362da2bc/Certificate.pdf",
     "skillsLearned": [
@@ -21,7 +21,7 @@
     "id": 2,
     "name": "Engineering Software As A Service",
     "school": "UC Berkeley",
-    "logo": "#",
+    "logo": "ucBerkeley.png",
     "dateRecieved": "June 2014",
     "url": "https://s3.amazonaws.com/verify.edx.org/downloads/34c9bf69dbcb4fbabdb3b464db9b2474/Certificate.pdf",
     "skillsLearned": [
@@ -39,7 +39,7 @@
     "id": 3,
     "name": "Leaders of Learning",
     "school": "Harvard",
-    "logo": "#",
+    "logo": "harvard.png",
     "dateRecieved": "August 2014",
     "url": "https://s3.amazonaws.com/verify.edx.org/downloads/a221f86062b14b2fabdba1b9e662418a/Certificate.pdf",
     "skillsLearned": [
@@ -53,7 +53,7 @@
     "id": 4,
     "name": "HTML5: Web Design Fundamentals",
     "school": "W3C",
-    "logo": "#",
+    "logo": "w3c.png",
     "dateRecieved": "July 2015",
     "url": "https://s3.amazonaws.com/verify.edx.org/downloads/98c70b51b5064d71b1e8fcf235a662f8/Certificate.pdf",
     "skillsLearned": [
@@ -67,7 +67,7 @@
     "id": 5,
     "name": "Introduction to Educational Technology",
     "school": "MIT",
-    "logo": "#",
+    "logo": "mit.png",
     "dateRecieved": "May 2017",
     "url": "https://courses.edx.org/certificates/bfe55d8e95ea4a11a42ce85e7d9b1311?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BDEtIUtZCTKqxhSonRYHNuQ%3D%3D",
     "skillsLearned": [
@@ -81,7 +81,7 @@
     "id": 6,
     "name": "Introduction to Cloud Computing",
     "school": "IEEE",
-    "logo": "#",
+    "logo": "ieee.png",
     "dateRecieved": "July 2015",
     "url": "https://s3.amazonaws.com/verify.edx.org/downloads/2c77ec7a13db4e4dbc2b914c4b93e171/Certificate.pdf",
     "skillsLearned": [

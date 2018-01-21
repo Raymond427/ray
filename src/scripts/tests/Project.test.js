@@ -3,7 +3,15 @@ import Project from '../components/Project';
 
 describe('Project', () => {
   it('renders without crashing', () => {
-    shallow(<Project/>);
+    shallow(<Project
+      key={mockProject.id}
+      name={mockProject.name}
+      type={mockProject.type}
+      description={mockProject.description}
+      img={mockProject.img}
+      codeURL={mockProject.codeURL}
+      siteURL={mockProject.siteURL}
+      color={mockProject.color}/>);
   });
 
   const mockProject = {
@@ -11,11 +19,12 @@ describe('Project', () => {
     name: "foo",
     type: "bam",
     description: "bizz",
-    img: "foo",
+    img: "youxpertBackground.jpg",
     codeURL: "www.bar.com",
     siteURL: "www.buzz.com",
     color: "#0F0F0F"
   };
+
   const wrapper = shallow(
   <Project
     key={mockProject.id}

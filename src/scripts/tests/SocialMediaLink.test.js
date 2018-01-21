@@ -3,10 +3,15 @@ import SocialMediaLink from '../components/SocialMediaLink';
 
 describe('SocialMediaLink', () => {
   it('renders without crashing', () => {
-    expect(shallow(<SocialMediaLink/>).exists()).toEqual(true);
+    expect(shallow(
+      <SocialMediaLink
+      name={mockSocialMediaLink.name}
+      url={mockSocialMediaLink.url}
+      img={mockSocialMediaLink.img}/>
+    ).exists()).toEqual(true);
   });
 
-  const mockSocialMediaLink = { id: 1, name: "foo", url: "www.bar.com", img: "#" };
+  const mockSocialMediaLink = { id: 1, name: "foo", url: "www.bar.com", img: "code.png" };
   const wrapperElement = shallow(
     <SocialMediaLink
       name={mockSocialMediaLink.name}
@@ -25,6 +30,6 @@ describe('SocialMediaLink', () => {
   it('renders the social media link image', ()=> {
     expect(imgElement.type).toEqual('img');
     expect(imgElement.props.alt).toEqual(mockSocialMediaLink.name);
-    expect(imgElement.props.src).toEqual('#');
+    expect(imgElement.props.src).toEqual('code.png');
   });
 });

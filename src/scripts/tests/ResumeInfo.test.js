@@ -5,9 +5,9 @@ import info from '../../data/contactInfo';
 
 describe('ResumeInfo', () => {
   it('renders without crashing', () => {
-    shallow(<ResumeInfo/>);
+    shallow(<ResumeInfo contactInfo={info} />);
   });
-  const wrapper = shallow(<ResumeInfo/>);
+  const wrapper = shallow(<ResumeInfo contactInfo={info} />);
   it('renders my image', () => {
     expect(wrapper.find('.ResumeInfo__img').length).toEqual(1);
   });

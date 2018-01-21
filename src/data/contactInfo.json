@@ -3,12 +3,13 @@
   "firstName": "Raymond",
   "middleName": "Cameron",
   "lastName": "Ferrell",
-  "img": "#",
+  "img": "raymond.jpg",
   "phoneNumber": "(919) 332-6212",
   "emailAddress": "rferrel427@gmail.com",
   "education": {
     "bachelors": {
       "school": "The University of North Carolina at Charlotte",
+      "img": "uncc.png",
       "degree": "Bachelor of Science in Computer Science Physics Minor",
       "enrollmentYear": "2011",
       "graduationYear": "2016"

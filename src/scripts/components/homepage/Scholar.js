@@ -7,7 +7,7 @@ class Scholar extends Component {
   render() {
     const certificates = this._renderCertificates();
     return(
-      <div className="Scholar">
+      <div className="Scholar" style={{backgroundImage: `url(${require(`../../../images/scholar.png`)})`}}>
         <h1>Scholar</h1>
         <p>I'm an advocate for making education more accessible using
         technology, my biggest hobby is collecting certificates from
@@ -23,7 +23,7 @@ class Scholar extends Component {
       <Certificate
         key={cert.id}
         type={`home`}
-        img={cert.img}
+        logo={cert.logo}
         name={cert.name}
         school={cert.school} />);
   }

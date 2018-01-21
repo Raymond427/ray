@@ -7,15 +7,15 @@
       {
         "id": 1,
         "name": "advancing innovative minds",
-        "logo": "#",
-        "img": "#",
+        "logo": "aimLogoWhite.png",
+        "img": "aim.jpg",
         "description": ""
       },
       {
         "id": 2,
         "name": "youxpert",
-        "logo": "#",
-        "img": "#",
+        "logo": "youxpertLogo.png",
+        "img": "youxpertBackground.jpg",
         "description": ""
       }
     ]
@@ -28,15 +28,15 @@
       {
         "id": 1,
         "name": "code2040",
-        "logo": "#",
-        "img": "#",
+        "logo": "code2040.png",
+        "img": "code2040Home.JPG",
         "description": ""
       },
       {
         "id": 2,
         "name": "national society of black engineers",
-        "logo": "#",
-        "img": "#",
+        "logo": "nsbeIconWhite.png",
+        "img": "nsbe.jpg",
         "description": ""
       }
     ]

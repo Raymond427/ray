@@ -7,7 +7,7 @@ class Certificate extends Component {
 
       return(
         <div className="Certificate">
-          <img className="Certificate__logo" alt={`${this.props.school}`} src={`${this.props.img}`} />
+          <img className="Certificate__logo" alt={`${this.props.school}`} src={require(`../../images/${this.props.logo}`)} />
           <div className="Certificate__info">
             <h3 className="Certificate__name">{this.props.name}</h3>
             <h4 className="Certificate__school">{this.props.school}</h4>
@@ -21,7 +21,7 @@ class Certificate extends Component {
     } else if (this.props.type === 'home') {
       return(
         <div className="Certificate">
-          <img alt={this.props.name} src={this.props.img} />
+          <img alt={this.props.name} src={require(`../../images/${this.props.logo}`)} />
           <p>{this.props.name}</p>
           <p>{this.props.school}</p>
         </div>

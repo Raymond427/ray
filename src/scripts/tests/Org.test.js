@@ -3,10 +3,16 @@ import Org from '../components/Org';
 
 describe('Org', () => {
   it('renders without crashing', () => {
-    expect(shallow(<Org/>).exists()).toEqual(true);
+    expect(shallow(
+      <Org
+        name={mockOrg.name}
+        img={mockOrg.img}
+        logo={mockOrg.logo}
+        description={mockOrg.description} />
+    ).exists()).toEqual(true);
   });
 
-  const mockOrg = { id: 1, name: "fizz", logo: "foo", img: "bar", description: "buzz" };
+  const mockOrg = { id: 1, name: "fizz", logo: "code.png", img: "code.png", description: "buzz" };
   const wrapperElement = shallow(
     <Org
       name={mockOrg.name}
@@ -25,7 +31,7 @@ describe('Org', () => {
   it('renders the org image', () => {
     expect(imgElement.type).toEqual('img');
     expect(imgElement.props.alt).toEqual(mockOrg.name);
-    expect(imgElement.props.src).toEqual('foo');
+    expect(imgElement.props.src).toEqual(mockOrg.img);
   });
 
   it('renders the org description', ()=> {

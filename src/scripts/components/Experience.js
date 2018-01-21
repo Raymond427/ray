@@ -5,7 +5,7 @@ class Experience extends Component {
     const achievements = this._renderachievements();
     return(
       <div className="Experience">
-        <img className="Experience__logo" alt={`${this.props.company}`} src={`${this.props.img}`} />
+        <img className="Experience__logo" alt={`${this.props.company}`} src={require(`../../images/${this.props.logo}`)} />
         <div className="Experience__info">
           <h3 className="Experience__title">{this.props.title}</h3>
           <h4 className="Experience__company">{this.props.company}</h4>

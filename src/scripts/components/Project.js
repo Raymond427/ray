@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import codeLinkImg from '../../images/code.png'
+import newTabLink from '../../images/openInNewWindow.png'
 
 class Project extends Component {
   render() {
-    const viewCodeLink = this._renderLinkIfPresent(this.props.codeURL, "code", this.props.img);
-    const viewSiteLink = this._renderLinkIfPresent(this.props.siteURL, "site", this.props.img);
-
+    const viewCodeLink = this._renderLinkIfPresent(this.props.codeURL, "code", codeLinkImg);
+    const viewSiteLink = this._renderLinkIfPresent(this.props.siteURL, "site", newTabLink);
     return(
-      <div className="Project" style={{backgroundImage: `url(${this.props.img})`}}>
+      <div className="Project" style={{backgroundImage: `url(${require(`../../images/${this.props.img}`)})`}}>
         <div className="Project__shade" style={{backgroundColor: `${this.props.color}`}}></div>
         <p>{this.props.name}</p>
         <p>{this.props.type}</p>

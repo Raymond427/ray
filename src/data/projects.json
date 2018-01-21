@@ -3,40 +3,40 @@
     "id": 1,
     "name": "Personal Site",
     "type": "React and Redux Web Application",
-    "description": "",
-    "img": "#",
-    "codeURL": "#",
-    "siteURL": "#",
-    "color": "#000000"
+    "description": "Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna praesent at id quisque ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris eus, cum eros quis aliquam wisi. Nulla wisi laoreet suspendisse integer vivamus elit eu mauris hendrerit facilisi, mi mattis pariatur aliquam pharetra eget.",
+    "img": "personalSite.JPG",
+    "codeURL": "https://github.com/Raymond427/ray",
+    "siteURL": "https://www.raymondferrell.com",
+    "color": "#4A86E8"
   },
   {
     "id": 2,
     "name": "Youxpert",
     "type": "React Web Application",
-    "description": "",
-    "img": "#",
-    "codeURL": "#",
-    "siteURL": "#",
-    "color": "#000000"
+    "description": "Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna praesent at id quisque ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris eus, cum eros quis aliquam wisi. Nulla wisi laoreet suspendisse integer vivamus elit eu mauris hendrerit facilisi, mi mattis pariatur aliquam pharetra eget.",
+    "img": "youxpertBackground.jpg",
+    "codeURL": "https://github.com/Raymond427/youxpert",
+    "siteURL": "https://raymond427.github.io/youxpert/",
+    "color": "#3D3478"
   },
   {
     "id": 3,
     "name": "Advancing Innovative Minds",
     "type": "Ruby on Rails Web Application",
-    "description": "",
-    "img": "#",
-    "codeURL": "#",
-    "siteURL": "#",
-    "color": "#000000"
+    "description": "Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna praesent at id quisque ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris eus, cum eros quis aliquam wisi. Nulla wisi laoreet suspendisse integer vivamus elit eu mauris hendrerit facilisi, mi mattis pariatur aliquam pharetra eget.",
+    "img": "aimBW.jpg",
+    "codeURL": "https://github.com/Raymond427/aim",
+    "siteURL": "http://www.aimuncc.org/",
+    "color": "#6DFD6F"
   },
   {
     "id": 4,
     "name": "Creating a Digital Pedagogy: Exploring Online Learning Methods to Increase STEM Graduates",
     "type": "Published Research Paper",
-    "description": "",
-    "img": "#",
-    "codeURL": "#",
-    "siteURL": "#",
-    "color": "#000000"
+    "description": "Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna praesent at id quisque ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris eus, cum eros quis aliquam wisi. Nulla wisi laoreet suspendisse integer vivamus elit eu mauris hendrerit facilisi, mi mattis pariatur aliquam pharetra eget.",
+    "img": "stem.png",
+    "codeURL": "",
+    "siteURL": "https://westphaliapress.org/2016/07/13/policy-perspective/",
+    "color": "#FC663D"
   }
 ]

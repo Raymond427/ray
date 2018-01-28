@@ -9,7 +9,7 @@ class Projects extends Component {
       <div className="Projects">
         <h1>Projects</h1>
         <p>From apps to published research</p>
-        <div className="project-wrapper">
+        <div className="project__wrapper">
           {projects}
         </div>
       </div>

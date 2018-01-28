@@ -14,27 +14,26 @@ class Intro extends Component {
 
     return(
       <div className="Intro">
-        <div className="Intro-background--image">
-          <div className="Intro-background--shade">
-            <div className="Intro-social-links">
-              <ul>
-                {socialMedia}
-              </ul>
-            </div>
-            <div className="Intro-content">
-              <h1>Hi, I'm Raymond</h1>
-              <h2>I'm a Community Volunteer, Entrepreneur, Software Engineer and
-              Web Designer. I'm interested in creating software that helps
-              underpriviledged people find their passion and reach their potential.</h2>
-              <Link to='/resume'><button>check out my resume</button></Link>
-              <Link to='/projects'><button>check out my projects</button></Link>
-            </div>
-            <Slider {...slickSettings}>
-              <img alt={`googleVisit`} src={googleVisit} />
-              <img alt={`hackathon`} src={hackathon} />
-              <img alt={`code2040Home`} src={code2040Home} />
-            </Slider>
-          </div>
+        <div className="Intro__background-image">
+          <Slider {...slickSettings}>
+            <img alt={`googleVisit`} src={googleVisit} />
+            <img alt={`hackathon`} src={hackathon} />
+            <img alt={`code2040Home`} src={code2040Home} />
+          </Slider>
+          <div className="Intro__background-shade"></div>
+        </div>
+        <div className="Intro__social-links">
+          <ul>
+            {socialMedia}
+          </ul>
+        </div>
+        <div className="Intro__content">
+          <h1>Hi, I'm Raymond</h1>
+          <h2>I'm a Community Volunteer, Entrepreneur, Software Engineer and
+          Web Designer. I'm interested in creating software that helps
+          underpriviledged people find their passion and reach their potential.</h2>
+          <Link to='/resume'><button>check out my resume</button></Link>
+          <Link to='/projects'><button>check out my projects</button></Link>
         </div>
       </div>
     );

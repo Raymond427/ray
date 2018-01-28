@@ -21,7 +21,7 @@ describe('Award', () => {
     expect(wrapper.find('.Award__organization').length).toEqual(1);
   });
   it('renders the dateReceived', () => {
-    expect(wrapper.find('.Award__dateReceived').length).toEqual(1);
+    expect(wrapper.find('.Award__date-received').length).toEqual(1);
   });
   it('renders the description', () => {
     expect(wrapper.find('.Award__description').length).toEqual(1);

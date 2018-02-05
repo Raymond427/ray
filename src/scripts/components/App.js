@@ -3,8 +3,8 @@ import Menu from './Menu';
 import Main from './Main';
 import Modal from './Modal';
 import Footer from './Footer';
-import { connect } from 'react-redux'
-import { withRouter } from 'react-router-dom'
+import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
 import '../../styles/App.css';
 
 class App extends Component {

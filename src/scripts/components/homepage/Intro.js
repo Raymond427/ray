@@ -20,7 +20,7 @@ class Intro extends Component {
             <img alt={`hackathon`} src={hackathon} />
             <img alt={`code2040Home`} src={code2040Home} />
           </Slider>
-          <div className="Intro__background-shade"></div>
+          <div className="Intro__background-shade overlay"></div>
         </div>
         <div className="Intro__social-links">
           <ul>

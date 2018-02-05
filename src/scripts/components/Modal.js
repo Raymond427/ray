@@ -1,19 +1,31 @@
 import React, { Component } from 'react';
 import ContactForm from './ContactForm';
+import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom'
+import { closeModal } from '../actions/modalActions';
 
 class Modal extends Component {
   render() {
     return(
       <div className="Modal">
-        <button className="Modal__close-button" onClick={() => this._unrenderModal()}>X</button>
+        <button className="Modal__close-button" onClick={this.props.closeModal}>X</button>
         <ContactForm/>
       </div>
     );
   }
+}
 
-  _unrenderModal() {
-    this.props.toggleModal();
+const mapStateToProps = state => {
+  return { showModal: state.modalReducer.modalOpen }
+}
+
+const mapDispatchToProps = dispatch => {
+  return {
+    closeModal: () => dispatch(closeModal)
   }
 }
 
-export default Modal;
+export default withRouter(connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Modal))

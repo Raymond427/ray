@@ -1,36 +1,29 @@
 import React, { Component } from 'react';
-import Header from './Header';
+import Menu from './Menu';
 import Main from './Main';
 import Modal from './Modal';
 import Footer from './Footer';
+import { connect } from 'react-redux'
+import { withRouter } from 'react-router-dom'
 import '../../styles/App.css';
 
 class App extends Component {
-  constructor() {
-    super();
-    this.state = { showModal: false };
-  }
-
   render() {
-    let modal = null;
-
-    if (this.state.showModal) {
-      modal = <Modal toggleModal={this._toggleModal.bind(this)} />;
-    }
-
     return (
       <div className="App">
-        <Header toggleModal={this._toggleModal.bind(this)} />
-        {modal}
-        <Main toggleModal={this._toggleModal.bind(this)} />
+        <Menu/>
+        {this.props.showModal && <Modal/>}
+        <Main/>
         <Footer/>
       </div>
     );
   }
-
-  _toggleModal() {
-    this.setState({ showModal: !this.state.showModal });
-  }
 }
 
-export default App;
+const mapStateToProps = state => {
+  return { showModal: state.modalReducer.modalOpen }
+}
+
+export default withRouter(connect(
+  mapStateToProps
+)(App))

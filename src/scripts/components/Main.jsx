@@ -3,11 +3,14 @@ import { Switch, Route } from 'react-router-dom';
 import Home from './Home';
 import Resume from './Resume';
 import Projects from './Projects';
+import { connect } from 'react-redux'
+import { withRouter } from 'react-router-dom'
+import '../../styles/Main.css';
 
 class Main extends Component {
   render() {
     return(
-      <main>
+      <main className={this.determineClassName()}>
         <Switch>
           <Route exact path='/' component={Home}/>
           <Route path='/resume' component={Resume}/>
@@ -16,6 +19,20 @@ class Main extends Component {
       </main>
     );
   }
+
+  determineClassName() {
+    if (this.props.menuOpen === null) {
+      return 'Main'
+    } else {
+      return this.props.menuOpen ? 'Main menu-open' : 'Main menu-closed';
+    }
+  }
 }
 
-export default Main;
+const mapStateToProps = state => {
+  return { menuOpen: state.menuReducer.menuOpen }
+}
+
+export default withRouter(connect(
+  mapStateToProps
+)(Main))

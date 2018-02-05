@@ -1,0 +1,16 @@
+.menu-closed {
+  animation: slideRight ease-out forwards 1.0s;
+  animation-direction: reverse;
+}
+
+.menu-open {
+  animation: slideRight ease-out forwards 1.0s;
+}
+
+@keyframes slideRight{
+	from {
+		transform: translateX(0%);
+	} to {
+		transform: translateX(30%);
+	}
+}

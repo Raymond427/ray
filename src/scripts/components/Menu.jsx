@@ -18,8 +18,8 @@ class Menu extends Component {
           <span></span>
           <span></span>
         </button>
-        <nav className="Menu__links">
-          <ul>
+        <nav className="Menu__nav">
+          <ul className="Menu__links">
             <li className="Menu__link-container">
               <Link to='/'>Home</Link>
             </li>

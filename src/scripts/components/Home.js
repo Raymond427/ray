@@ -11,9 +11,9 @@ class Home extends Component {
       <div className="Home">
         <Intro/>
         <SoftwareEngineer/>
-        <Hobby hobby={hobbyData[0]}/>
+        <Hobby className="Entrepreneur" hobby={hobbyData[0]}/>
         <Scholar/>
-        <Hobby hobby={hobbyData[1]}/>
+        <Hobby className="Community-volunteer" hobby={hobbyData[1]}/>
       </div>
     );
   }

@@ -3,6 +3,7 @@ import ContactForm from './ContactForm';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom'
 import { closeModal } from '../actions/modalActions';
+import '../../styles/Modal.css';
 
 class Modal extends Component {
   render() {

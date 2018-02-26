@@ -1,0 +1,48 @@
+.ResumeInfo {
+  padding: 2rem 1rem;
+  background-color: #34495E;
+  color: #FFFFFF;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.ResumeInfo__name {
+  font-size: 1.75rem;
+}
+
+.ResumeInfo h3 {
+  font-family: 'Knewave', cursive;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.ResumeInfo p {
+  font-size: 1.25rem;
+}
+
+.ResumeInfo__social-media {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ResumeInfo__education-logo {
+  width: 12rem;
+}
+
+.ResumeInfo__social-media li {
+  padding: 0 0.5rem;
+  cursor: pointer;
+}
+
+.ResumeInfo__img {
+  width: 10rem;
+  height: 10rem;
+  margin-top: 2rem;
+  border-radius: 50%;
+}

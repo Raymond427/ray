@@ -1,0 +1,14 @@
+.Certificate-home {
+  margin: 1rem 2rem;
+  width: 12rem;
+}
+
+.Certificate-home img {
+    height: 7rem;
+    width: 7rem;
+    margin-bottom: 0.75rem;
+}
+
+.Certificate-home p {
+  margin: 0.2rem 0;
+}

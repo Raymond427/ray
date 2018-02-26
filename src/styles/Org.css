@@ -1,0 +1,19 @@
+.Org {
+  height: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Org__shade {
+  background-color: rgba(0, 67, 170, 0.8);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Org__logo {
+  margin-top: 8rem;
+  height: 8rem;
+}

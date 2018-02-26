@@ -1,0 +1,21 @@
+.Projects {
+    background-color: #34495E;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Projects__heading {
+    font-size: 4rem;
+}
+
+.Projects__subheading {
+    font-size: 2rem;
+}
+
+.Project__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 88rem;
+  margin: 0 auto;
+}

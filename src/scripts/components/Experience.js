@@ -7,9 +7,9 @@ class Experience extends Component {
       <div className="Experience">
         <img className="Experience__logo" alt={`${this.props.company}`} src={require(`../../images/${this.props.logo}`)} />
         <div className="Experience__info">
+          <h4 className="Experience__date">{`${this.props.startDate} - ${this.props.endDate}`}</h4>
           <h3 className="Experience__title">{this.props.title}</h3>
           <h4 className="Experience__company">{this.props.company}</h4>
-          <h4 className="Experience__date">{`${this.props.startDate} - ${this.props.endDate}`}</h4>
           <ul className="Experience__achievements">
             {achievements}
           </ul>

@@ -7,7 +7,7 @@
     "img": "personalSite.JPG",
     "codeURL": "https://github.com/Raymond427/ray",
     "siteURL": "https://www.raymondferrell.com",
-    "color": "#4A86E8"
+    "color": "74, 134, 232"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "img": "youxpertBackground.jpg",
     "codeURL": "https://github.com/Raymond427/youxpert",
     "siteURL": "https://raymond427.github.io/youxpert/",
-    "color": "#3D3478"
+    "color": "61, 52, 120"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "img": "aimBW.jpg",
     "codeURL": "https://github.com/Raymond427/aim",
     "siteURL": "http://www.aimuncc.org/",
-    "color": "#6DFD6F"
+    "color": "0, 256, 0"
   },
   {
     "id": 4,
@@ -37,6 +37,6 @@
     "img": "stem.png",
     "codeURL": "",
     "siteURL": "https://westphaliapress.org/2016/07/13/policy-perspective/",
-    "color": "#FC663D"
+    "color": "252, 102, 61"
   }
 ]

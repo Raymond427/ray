@@ -1,0 +1,26 @@
+h1, h2 {
+  font-family: 'Knewave', cursive;
+}
+
+h3, h4, h5, h6, p, a, small, li, em {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+a, a:visited, a:focus, a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+button, input[type="submit"] {
+  margin: 1rem auto;
+  border-radius: 2rem;
+  background-color: #4AA3DF;
+  padding: 1.5rem 1.5rem;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}

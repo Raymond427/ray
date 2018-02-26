@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import Org from '../Org';
+import '../../../styles/Home.css';
+import '../../../styles/Hobby.css';
 
 class Hobby extends Component {
   render() {
     const orgs = this._renderOrgs();
 
     return(
-      <div className="Hobby">
+      <div className={`${this.props.className} Hobby Home-section`}>
         <div className="Hobby__info">
           <h2>{this.props.hobby.type}</h2>
           <p>{this.props.hobby.description}</p>

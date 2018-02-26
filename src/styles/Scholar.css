@@ -1,0 +1,15 @@
+.Scholar {
+  top: 400vh;
+}
+
+.Certificate__shade {
+  background: rgba(57,73,94, 0.85);
+}
+
+.Certificates {
+  width: 50rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1rem auto;
+}

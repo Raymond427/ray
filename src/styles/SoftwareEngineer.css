@@ -1,0 +1,15 @@
+.SoftwareEngineer {
+  top: 200vh;
+}
+
+.SoftwareEngineer__shade {
+  background: rgba(57,73,94, 0.85);
+}
+
+.Tools {
+  max-width: 64rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5rem auto;
+}

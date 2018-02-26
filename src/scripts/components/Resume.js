@@ -9,6 +9,7 @@ import publicationData from '../../data/publications';
 import awardData from '../../data/awards';
 import Certificate from './Certificate'
 import certificateData from '../../data/certificates';
+import '../../styles/Resume.css';
 
 class Resume extends Component {
   render() {
@@ -20,29 +21,31 @@ class Resume extends Component {
 
     return(
       <div className="Resume">
-        <a className="Resume__download-link" download="%PUBLIC_URL%/../src/data/RaymondFerrellResume">
-          <button className="Resume__download-button">download resume pdf</button>
-        </a>
         <ResumeInfo contactInfo={contactInfoData} />
-        <div className="Experiences">
-          <h2>Experiences</h2>
-          {workExperiences}
-        </div>
-        <div className="Volunteering">
-          <h2>Volunteering Experience</h2>
-          {volunteerExperiences}
-        </div>
-        <div className="Certifications">
-          <h2>Certifications</h2>
-          {certificates}
-        </div>
-        <div className="Publications">
-          <h2>Publications</h2>
-          {publications}
-        </div>
-        <div className="Honors">
-          <h2>Honors and Awards</h2>
-          {awards}
+        <div className="Resume__content">
+          <a className="Resume__download-link" download="%PUBLIC_URL%/../src/data/RaymondFerrellResume">
+            <button className="Resume__download-button">download resume pdf</button>
+          </a>
+          <div className="Experiences Resume__experience">
+            <h2>Experiences</h2>
+            {workExperiences}
+          </div>
+          <div className="Volunteering Resume__experience">
+            <h2>Volunteering Experience</h2>
+            {volunteerExperiences}
+          </div>
+          <div className="Certifications Resume__experience">
+            <h2>Certifications</h2>
+            {certificates}
+          </div>
+          <div className="Publications Resume__experience">
+            <h2>Publications</h2>
+            {publications}
+          </div>
+          <div className="Honors Resume__experience">
+            <h2>Honors and Awards</h2>
+            {awards}
+          </div>
         </div>
       </div>
     );

@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 import Project from './Project';
 import projectData from '../../data/projects.json';
+import '../../styles/Home.css';
+import '../../styles/Projects.css';
 
 class Projects extends Component {
   render() {
     const projects = this._renderProjects();
     return(
-      <div className="Projects">
-        <h1>Projects</h1>
-        <p>From apps to published research</p>
-        <div className="project__wrapper">
+      <div className="Projects Home-section">
+        <h1 className="Projects__heading">Projects</h1>
+        <p className="Projects__subheading">From apps to published research</p>
+        <div className="Project__wrapper">
           {projects}
         </div>
       </div>

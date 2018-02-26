@@ -1,0 +1,48 @@
+.Resume {
+  display: flex;
+  flex-direction: row;
+  background-color: #E0FCF9;
+}
+
+.Resume__content {
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.Resume__download-link {
+  margin: 0;
+  float: right;
+}
+
+.Resume__experience {
+  color: #34495E;
+}
+
+.Resume__experience h2 {
+  margin-top: 0;
+}
+
+.Resume__experience img {
+  float: left;
+  height: 4.5rem;
+  width: 7rem;
+}
+
+.Experience__title, .Certificate__name, .Publication__title, .Award__title {
+  margin-top: 0;
+}
+
+.Experience__info, .Certificate__info {
+  margin: 0 2rem;
+}
+
+.Experience__date, .Publication__date, .Award__date-received, .Certificate__verify {
+  display: inline;
+  float: right;
+  margin-top: 0;
+}
+
+.Experience, .Certificate {
+  display: flex;
+  flex-direction: row;
+}

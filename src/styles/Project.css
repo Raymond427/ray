@@ -1,0 +1,41 @@
+.Project {
+  width: 20rem;
+  height: 30rem;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 1rem;
+}
+
+.Project img {
+  width: 3.125rem;
+}
+
+.Project__view-code img {
+  margin: 0.5rem 0;
+}
+
+.Project__description {
+  text-align: left;
+}
+
+.Project__links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 15rem;
+  margin: 0 auto;
+}
+
+.Project__links p {
+  margin: 0;
+}
+
+.Project__shade {
+  width: 18rem;
+  height: 28rem;
+  padding: 1rem;
+}

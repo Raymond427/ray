@@ -10,8 +10,8 @@ class Project extends Component {
     return(
       <div className="Project" style={{backgroundImage: `url(${require(`../../images/${this.props.img}`)})`}}>
         <div className="Project__shade" style={{backgroundColor: `rgba(${this.props.color}, 0.8)`}}>
-          <p>{this.props.name}</p>
-          <p>{this.props.type}</p>
+          <p className="Project__name">{this.props.name}</p>
+          <p className="Project__type">{this.props.type}</p>
           <p className="Project__description">{this.props.description}</p>
           <div className="Project__links">
             {viewCodeLink}

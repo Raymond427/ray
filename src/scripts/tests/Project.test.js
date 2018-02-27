@@ -22,7 +22,7 @@ describe('Project', () => {
     img: "youxpertBackground.jpg",
     codeURL: "www.bar.com",
     siteURL: "www.buzz.com",
-    color: "#0F0F0F"
+    color: "01, 01, 01"
   };
 
   const wrapper = shallow(
@@ -46,19 +46,19 @@ describe('Project', () => {
   });
 
   it('has the backgroud color from the data', () => {
-    expect(wrapperElements.children[0].props.style.backgroundColor).toEqual(mockProject.color);
+    expect(wrapperElements.children.props.style.backgroundColor).toEqual(`rgba(${mockProject.color}, 0.8)`);
   });
 
   it('renders the project name', () => {
-    expect(wrapperElements.children[1].props.children).toEqual(mockProject.name);
+    expect(wrapper.find('.Project__name').length).toEqual(1);
   });
 
   it('renders the project type', () => {
-    expect(wrapperElements.children[2].props.children).toEqual(mockProject.type);
+    expect(wrapper.find('.Project__type').length).toEqual(1);
   });
 
   it('renders the project description', () => {
-    expect(wrapperElements.children[3].props.children).toEqual(mockProject.description);
+    expect(wrapper.find('.Project__description').length).toEqual(1);
   });
 
   describe('renderLinkIfPresent', () => {

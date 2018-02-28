@@ -9,6 +9,7 @@ import publicationData from '../../data/publications';
 import awardData from '../../data/awards';
 import Certificate from './Certificate'
 import certificateData from '../../data/certificates';
+import resumePDF from '../../data/files/RaymondFerrellResume.pdf';
 import '../../styles/Resume.css';
 
 class Resume extends Component {
@@ -23,7 +24,7 @@ class Resume extends Component {
       <div className="Resume">
         <ResumeInfo contactInfo={contactInfoData} />
         <div className="Resume__content">
-          <a className="Resume__download-link" download="%PUBLIC_URL%/../src/data/RaymondFerrellResume">
+          <a className="Resume__download-link" href={resumePDF} target="_blank">
             <button className="Resume__download-button">download resume pdf</button>
           </a>
           <div className="Experiences Resume__experience">
@@ -60,6 +61,7 @@ class Resume extends Component {
         logo={ex.logo}
         startDate={ex.startDate}
         endDate={ex.endDate}
+        location={ex.location}
         achievements={ex.achievements} />
     );
   }

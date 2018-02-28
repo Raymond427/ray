@@ -8,6 +8,7 @@
       "logo": "youxpertIcon.png",
       "startDate": "Janurary 2016",
       "endDate": "June 2017",
+      "location": "Charlotte, NC",
       "achievements": [
         { "id": 1,
           "description": "Architected Ruby on Rails healthcare platform for San Francisco based startup MPI Cognition to demonstrate their patient record file system service to 15+ doctors during user testing sessions."
@@ -30,6 +31,7 @@
       "logo": "carbonFive.png",
       "startDate": "May 2016",
       "endDate": "August 2016",
+      "location": "San Francisco, CA",
       "achievements": [
         { "id": 1,
           "description": "Met with startup founders daily to discuss features, suggest designs and explain agile development"
@@ -61,6 +63,7 @@
       "logo": "hp.png",
       "startDate": "May 2015",
       "endDate": "August 2015",
+      "location": "Corvallis, OR",
       "achievements": [
         { "id": 1,
           "description": "Built, unit tested and added features to three Ruby on Rails web applications in 11 weeks using HTML5, CSS3, JavaScript, Bootstrap, RSpec, and Git in a Linux environment"
@@ -86,6 +89,7 @@
       "logo": "unccIcon.png",
       "startDate": "October 2011",
       "endDate": "May 2014",
+      "location": "Charlotte, NC",
       "achievements": [
         { "id": 1,
           "description": "Proofread documents and assembled materials for staff events, conferences and meetings"
@@ -108,6 +112,7 @@
       "logo": "aimIcon.png",
       "startDate": "September 2015",
       "endDate": "December 2015",
+      "location": "Charlotte, NC",
       "achievements": [
         {
           "id": 1,
@@ -138,6 +143,7 @@
       "logo": "nsbeIcon.png",
       "startDate": "October 2011",
       "endDate": "May 2015",
+      "location": "Charlotte, NC",
       "achievements": [
         {
           "id": 1,

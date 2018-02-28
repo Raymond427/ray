@@ -1,12 +1,18 @@
 .Certificate-home {
   margin: 1rem 2rem;
   width: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.Certificate-home img {
-    height: 7rem;
-    width: 7rem;
-    margin-bottom: 0.75rem;
+.Certificate-home__logo {
+  display: block;
+  margin: auto;
+  max-width: 7rem;
+  max-height: 5rem;
+  width: auto;
+  height: auto;
 }
 
 .Certificate-home p {

@@ -2,18 +2,18 @@
   {
     "id": 1,
     "name": "Personal Site",
-    "type": "React and Redux Web Application",
-    "description": "Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna praesent at id quisque ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris eus, cum eros quis aliquam wisi. Nulla wisi laoreet suspendisse integer vivamus elit eu mauris hendrerit facilisi, mi mattis pariatur aliquam pharetra eget.",
+    "type": "React and Redux Progressive Web Application",
+    "description": "I designed and built this site from scratch! It uses React, manages state with Redux and is hosted on GitHub Pages. I used Facebook's Jest and Airbnb's Enzyme libraries to write eighty-seven unit tests to polish my Test Driven Development skills. I also wanted to ensure the app met PWA standards to make accessing the app more convenient",
     "img": "personalSite.JPG",
     "codeURL": "https://github.com/Raymond427/ray",
     "siteURL": "https://www.raymondferrell.com",
-    "color": "74, 134, 232"
+    "color": "59, 107, 185"
   },
   {
     "id": 2,
     "name": "Youxpert",
     "type": "React Web Application",
-    "description": "Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna praesent at id quisque ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris eus, cum eros quis aliquam wisi. Nulla wisi laoreet suspendisse integer vivamus elit eu mauris hendrerit facilisi, mi mattis pariatur aliquam pharetra eget.",
+    "description": "When offering web development as a service, your company website is often a customer's first exposure to your work. Knowing this, I made sure to design and build a quality site that will convince potential clients of our skills. I decided to swap our Wix site for a React application to ensure a snappy user experience.",
     "img": "youxpertBackground.jpg",
     "codeURL": "https://github.com/Raymond427/youxpert",
     "siteURL": "https://raymond427.github.io/youxpert/",
@@ -23,17 +23,17 @@
     "id": 3,
     "name": "Advancing Innovative Minds",
     "type": "Ruby on Rails Web Application",
-    "description": "Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna praesent at id quisque ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris eus, cum eros quis aliquam wisi. Nulla wisi laoreet suspendisse integer vivamus elit eu mauris hendrerit facilisi, mi mattis pariatur aliquam pharetra eget.",
+    "description": "The best thing about creating AIM was that it allowed me to work on all of my hobbies at once, learning about entrepreneurship, teaching and learning from others, and creating software! Using the Rails skills I picked up from Hewlett-Packard and Carbon Five, I designed and built this app to allow students to sign up for the org, receive emails, and see our latest news.",
     "img": "aimBW.jpg",
     "codeURL": "https://github.com/Raymond427/aim",
     "siteURL": "http://www.aimuncc.org/",
-    "color": "0, 256, 0"
+    "color": "0, 112, 60"
   },
   {
     "id": 4,
     "name": "Creating a Digital Pedagogy: Exploring Online Learning Methods to Increase STEM Graduates",
     "type": "Published Research Paper",
-    "description": "Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna praesent at id quisque ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris eus, cum eros quis aliquam wisi. Nulla wisi laoreet suspendisse integer vivamus elit eu mauris hendrerit facilisi, mi mattis pariatur aliquam pharetra eget.",
+    "description": "Students in the US are falling behind in the global competition for employment in technological fields. The technology that led to this competition can be used to recreate this country’s educational system to prepare students for future technological industries. Thanks to Dr. Liz Johnson and Westphalia Press, I was able to publish my thoughts on the future of education!",
     "img": "stem.png",
     "codeURL": "",
     "siteURL": "https://westphaliapress.org/2016/07/13/policy-perspective/",

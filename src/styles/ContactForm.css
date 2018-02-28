@@ -56,6 +56,6 @@ textarea {
 
 .error-message {
   color: red;
-  display: block;
+  visibility: hidden;
   margin: 0.25rem 0;
 }

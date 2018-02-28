@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import formIsValid from '../modules/contactFormValidation';
 import '../../styles/ContactForm.css';
 
 class ContactForm extends Component {
@@ -36,7 +37,13 @@ class ContactForm extends Component {
 
   _handleSubmit(event){
      event.preventDefault();
-     //this.props.addEntry(this._name.value, this._email.value, this._phone.value, this._message.value);
+     if(formIsValid()) {
+       this.props.addEntry(
+         this._name.value,
+         this._email.value,
+         this._phone.value,
+         this._message.value);
+     }
   }
 }
 

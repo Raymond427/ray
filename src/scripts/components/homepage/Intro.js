@@ -12,7 +12,7 @@ import '../../../styles/Home.css';
 class Intro extends Component {
   render() {
     const socialMedia = this._renderSocialMediaLinks();
-    const slickSettings = { slidesToShow: 1, slidesToScroll: 1, arrows: false, fade: true, autoplay: true, speed: 1000, pauseOnHover: false };
+    const slickSettings = { arrows: false, fade: true, autoplay: true, speed: 1000, pauseOnHover: false, variableWidth: true };
 
     return(
       <div className="Intro Home-section">

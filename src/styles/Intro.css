@@ -51,3 +51,7 @@
 .Home-content__link {
   margin: 0 1rem;
 }
+
+.slick-slide {
+    width: 100vw;
+}

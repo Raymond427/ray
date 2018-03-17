@@ -46,3 +46,18 @@
   margin-top: 2rem;
   border-radius: 50%;
 }
+
+@media (max-width: 680px) {
+  .ResumeInfo__img {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .ResumeInfo {
+    width: 100%;
+    padding: 0;
+  }
+  .skillLevels {
+    display: none;
+  }
+}

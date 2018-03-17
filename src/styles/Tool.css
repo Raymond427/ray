@@ -5,6 +5,8 @@
 .Tool img {
   width: 4.5rem;
   height: 4.5rem;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .Tool p {

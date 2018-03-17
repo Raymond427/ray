@@ -24,7 +24,7 @@ class ResumeInfo extends Component {
         </ul>
         <div className="ResumeInfo__education">
           <h2 className="ResumeInfo__education-header">Education</h2>
-          <img className="ResumeInfo__education-logo" alt={this.props.contactInfo.school} src={require(`../../images/${this.props.contactInfo.education.bachelors.img}`)} />
+          <img className="ResumeInfo__education-logo" alt={this.props.contactInfo.education.bachelors.school} src={require(`../../images/${this.props.contactInfo.education.bachelors.img}`)} />
           <p className="ResumeInfo__school-name">{this.props.contactInfo.education.bachelors.school}</p>
           <p className="ResumeInfo__degree">{this.props.contactInfo.education.bachelors.degree}</p>
           <p className="ResumeInfo__school-years">{`${this.props.contactInfo.education.bachelors.enrollmentYear} - ${this.props.contactInfo.education.bachelors.graduationYear}`}</p>

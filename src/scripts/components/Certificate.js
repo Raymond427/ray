@@ -8,15 +8,17 @@ class Certificate extends Component {
 
       return(
         <div className="Certificate">
-          <img className="Certificate__logo" alt={`${this.props.school}`} src={require(`../../images/${this.props.logo}`)} />
-          <div className="Certificate__info">
+          <div className="Certificate__container">
+            <img className="Certificate__logo" alt={`${this.props.school}`} src={require(`../../images/${this.props.logo}`)} />
+            <div className="Certificate__info">
+              <h3 className="Certificate__name">{this.props.name}</h3>
+              <h4 className="Certificate__school">{this.props.school}</h4>
+            </div>
             <a className="Certificate__verify" href={this.props.url} target="blank">Verify</a>
-            <h3 className="Certificate__name">{this.props.name}</h3>
-            <h4 className="Certificate__school">{this.props.school}</h4>
-            <ul className="Certificate__descriptions">
-              {descriptions}
-            </ul>
           </div>
+          <ul className="Certificate__descriptions">
+            {descriptions}
+          </ul>
         </div>
       );
     } else if (this.props.type === 'home') {

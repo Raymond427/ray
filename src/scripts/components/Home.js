@@ -10,10 +10,10 @@ class Home extends Component {
     return(
       <div className="Home">
         <Intro/>
-        <SoftwareEngineer/>
         <Hobby className="Entrepreneur" hobby={hobbyData[0]}/>
-        <Scholar/>
+        <SoftwareEngineer/>
         <Hobby className="Community-volunteer" hobby={hobbyData[1]}/>
+        <Scholar/>
       </div>
     );
   }

@@ -9,13 +9,13 @@ class Scholar extends Component {
   render() {
     const certificates = this._renderCertificates();
     return(
-      <div className="Scholar Home-section" style={{backgroundImage: `url(${require(`../../../images/scholar.png`)})`}}>
-        <div className="Certificate__shade Home-overlay">
+      <div className="Scholar Home-section" style={{backgroundImage: `url(${require(`../../../images/scholar.jpg`)})`}}>
+        <div className="Scholar__shade Home-overlay">
           <div className="Scholar__content Home-content">
-            <h1>Scholar</h1>
-            <h3>I'm an advocate for making education more accessible using
+            <h2>Scholar</h2>
+            <h4>I'm an advocate for making education more accessible using
             technology, my biggest hobby is collecting certificates from
-            online university courses</h3>
+            online university courses</h4>
             <Link to='/projects'><button>check out my published research on stem education</button></Link>
             <div className="Certificates">
               {certificates}

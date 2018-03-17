@@ -11,6 +11,7 @@ class Menu extends Component {
     return(
       <header className="Menu">
         <button
+          aria-label="Toggle Menu"
           className={this.determineClassName()}
           onClick={this.props.menuOpen ? this.props.closeMenu : this.props.openMenu}>
           <span></span>

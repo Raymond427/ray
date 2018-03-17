@@ -18,7 +18,7 @@ describe('Software Engineer', () => {
   });
 
   it('renders the subheader', () => {
-    expect(wrapperContent[1].type).toEqual('h3');
+    expect(wrapperContent[1].type).toEqual('h4');
   });
 
   it('renders the project button', () => {

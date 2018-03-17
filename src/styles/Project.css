@@ -6,6 +6,7 @@
   background-position: center;
   background-repeat: no-repeat;
   margin: 1rem;
+  border-radius: 2rem;
 }
 
 .Project img {
@@ -32,10 +33,25 @@
 
 .Project__links p {
   margin: 0;
+  font-weight: bold;
 }
 
 .Project__shade {
   width: 18rem;
   height: 28rem;
   padding: 1rem;
+  border-radius: inherit;
+}
+
+@media (max-width: 1320px) {
+  .Project {
+    font-size: 1.25rem;
+    width: 25rem;
+    height: 35rem;
+  }
+
+  .Project__shade {
+    width: 23rem;
+    height: 33rem;
+  }
 }

@@ -4,18 +4,20 @@
   background-color: #E0FCF9;
 }
 
-.Resume__download-button {
-  margin: 0;
-}
-
 .Resume__content {
   padding: 2rem;
   font-size: 1.5rem;
 }
 
+.Resume__content li {
+  margin: 1rem 0;
+}
+
 .Resume__download-link {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
   margin: 0;
-  float: right;
 }
 
 .Resume__experience {
@@ -26,12 +28,18 @@
   margin-top: 0;
 }
 
-.Resume__experience img {
+.Experience, .Certificate, .Award, .Publication {
+  margin: 3rem 0;
+}
+
+.Experience h4:last-child {
+  margin-bottom: 0;
+}
+.Experience__logo, .Certificate__logo {
   float: left;
   max-width: 8rem;
-  max-height: 5rem;
+  height: 5rem;
   width: auto;
-  height: auto;
 }
 
 .Experience__title, .Certificate__name, .Publication__title, .Award__title {
@@ -48,7 +56,34 @@
   margin-top: 0;
 }
 
-.Experience, .Certificate {
+.Experience__container, .Certificate__container {
   display: flex;
   flex-direction: row;
+}
+
+@media (max-width: 1195px) {
+  .Experience__date, .Publication__date, .Award__date-received, .Certificate__verify {
+    display: none;
+  }
+}
+
+@media (max-width: 680px) {
+  .Resume {
+    flex-direction: column;
+  }
+
+  .Resume__download-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 16rem;
+  }
+
+  .Resume__download-button {
+    margin: 0 0 2rem 0;
+  }
+
+  .Resume__content {
+    padding: 2rem 0 0 2rem;
+  }
 }

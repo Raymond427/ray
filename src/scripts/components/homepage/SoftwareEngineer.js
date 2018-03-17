@@ -13,8 +13,8 @@ class SoftwareEngineer extends Component {
         <div className="SoftwareEngineer__shade Home-overlay">
           <div className="SoftwareEngineer__container Home-content">
             <h2>Software Engineer</h2>
-            <h3>I'm a full stack software engineer that has worked for
-            Hewlett Packard in Oregon and Carbon Five in San Francisco.</h3>
+            <h4>I'm a full stack software engineer that has worked for
+            Hewlett Packard in Oregon and Carbon Five in San Francisco.</h4>
             <Link to='/projects'><button className="SoftwareEngineer__project-button">check out my projects</button></Link>
             <div className="Tools">
               {tools}

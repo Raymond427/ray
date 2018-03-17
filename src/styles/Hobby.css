@@ -4,16 +4,8 @@
   flex-wrap: wrap;
 }
 
-.Entrepreneur {
-  top: 100vh;
-}
-
 .Entrepreneur .Org__wrapper {
   right: 0;
-}
-
-.Community-volunteer {
-  top: 300vh;
 }
 
 .Entrepreneur .Community-volunteer {
@@ -33,6 +25,7 @@
 .Hobby__info h2 {
   font-size: 3rem;
   text-transform: capitalize;
+  padding: 0.25rem 1rem 0 1rem;
 }
 
 .Hobby__info p {
@@ -42,4 +35,30 @@
 
 .Org__wrapper {
   width: 60%;
+}
+
+@media (max-width: 1120px) {
+  .Hobby__info p {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .Hobby {
+    flex-direction: column;
+  }
+
+  .Hobby__info {
+    height: 30%;
+  }
+
+  .Org__wrapper {
+    height: 70%;
+  }
+
+  .Hobby__info, .Org__wrapper {
+    width: 100%;
+  }
 }

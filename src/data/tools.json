@@ -49,36 +49,24 @@
   },
   {
     "id": 9,
-    "name": "Webpack",
-    "img": "webpack.png",
-    "skillLevel": 0
-  },
-  {
-    "id": 10,
     "name": "Heroku",
     "img": "heroku.png",
     "skillLevel": 0
   },
   {
-    "id": 11,
+    "id": 10,
     "name": "Ubuntu",
     "img": "ubuntu.png",
     "skillLevel": 0
   },
   {
-    "id": 12,
+    "id": 11,
     "name": "PostgreSQL",
     "img": "postgresql.png",
     "skillLevel": 0
   },
   {
-    "id": 13,
-    "name": "Unity",
-    "img": "unity.png",
-    "skillLevel": 0
-  },
-  {
-    "id": 14,
+    "id": 12,
     "name": "GitHub",
     "img": "githubGrey.png",
     "skillLevel": 0

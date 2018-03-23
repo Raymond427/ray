@@ -96,20 +96,20 @@
   .Home-section, .Home-overlay {
     height: 100%;
   }
-
   .Home-overlay h2 {
     margin-top: 0;
   }
 }
 
 @media (max-width: 520px) {
-
-  .Home-content h1 {
-    max-width: 350px;
-  }
-
   .Home-content h3 {
     font-size: 1.5rem;
     max-width: 350px;
+  }
+}
+
+@media (max-width: 375px) {
+  .Home-content h3 {
+    max-width: 300px;
   }
 }

@@ -30,12 +30,13 @@
   object-fit: cover;
 }
 
-.Intro__background-shade {
+#Intro__background-shade {
   background: rgb(60,223,216); /* Old browsers */
   background: -moz-linear-gradient(45deg, rgba(26, 188, 156, 0.9) 0%, rgba(74, 163, 223, 0.6) 50%, rgba(52, 73, 94 ,0.9) 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(45deg, rgba(26, 188, 156, 0.9) 0%, rgba(74, 163, 223, 0.6) 50%, rgba(52, 73, 94 ,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(45deg, rgba(26, 188, 156, 0.9) 0%, rgba(74, 163, 223, 0.6) 50%, rgba(52, 73, 94 ,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3cdfd8', endColorstr='#0d122b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  position: absolute;
 }
 
 .SocialMediaLink img {
@@ -54,4 +55,5 @@
 
 .slick-slide {
     width: 100vw;
+    height: 100vh;
 }

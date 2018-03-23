@@ -80,15 +80,19 @@
 }
 
 .Menu__nav {
+  top: 0;
   position: fixed;
   min-width: 20rem;
-  min-height: 100vh;
-  height: 100%;
+  height: 100vh;
   background-color: #34495E;
   display: flex;
   flex-direction: column;
   justify-content: center;
   z-index: 0;
+}
+
+.Menu__links {
+  top: 50%;
 }
 
 .Menu__link-container {

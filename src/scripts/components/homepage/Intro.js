@@ -16,8 +16,8 @@ class Intro extends Component {
 
     return(
       <div className="Intro Home-section">
+        <div className="Home-overlay" id="Intro__background-shade"></div>
         <div className="Intro__background">
-          <div className="Intro__background-shade Home-overlay"></div>
           <Slider className="Intro__background-image" {...slickSettings}>
             <img alt={`googleVisit`} src={googleVisit} />
             <img alt={`hackathon`} src={hackathon} />

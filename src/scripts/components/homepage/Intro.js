@@ -6,6 +6,7 @@ import googleVisit from '../../../images/googleVisit.JPG';
 import hackathon from '../../../images/hackathon.JPG';
 import code2040Home from '../../../images/code2040Home.JPG';
 import { Link } from 'react-router-dom';
+import ReactGA from 'react-ga';
 import '../../../styles/Intro.css';
 import '../../../styles/Home.css';
 
@@ -32,8 +33,16 @@ class Intro extends Component {
           <h3>I'm a Community Volunteer, Entrepreneur, Software Engineer and
           Web Designer. I'm interested in creating software that helps
           underpriviledged people find their passion and reach their potential.</h3>
-          <Link className="Home-content__link" to='/resume'><button>check out my resume</button></Link>
-          <Link className="Home-content__link" to='/projects'><button>check out my projects</button></Link>
+          <Link className="Home-content__link" to='/resume'><button
+          onClick={() => ReactGA.event({
+            category: 'Homepage',
+            action: `Clicked Resume Button`
+          })}>check out my resume</button></Link>
+          <Link className="Home-content__link" to='/projects'
+          onClick={() => ReactGA.event({
+            category: 'Homepage',
+            action: `Clicked Projects Button`
+          })}><button>check out my projects</button></Link>
         </div>
       </div>
     );

@@ -7,6 +7,7 @@
   background-repeat: no-repeat;
   margin: 1rem;
   border-radius: 2rem;
+  box-shadow: 0 0.44rem 0.625rem 0 rgba(0, 0, 0, .25);
 }
 
 .Project img {

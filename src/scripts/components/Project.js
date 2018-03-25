@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import codeLinkImg from '../../images/code.png';
 import newTabLink from '../../images/openInNewWindow.png';
 import '../../styles/Project.css';
+import ReactGA from 'react-ga';
 
 class Project extends Component {
   render() {
@@ -25,7 +26,11 @@ class Project extends Component {
   _renderLinkIfPresent(url, type, img) {
     if (url) {
       return(
-        <a className={`Project__view-${type}`} href={url}>
+        <a className={`Project__view-${type}`} href={url}
+          onClick={() => ReactGA.event({
+            category: 'Project',
+            action: `Viewed ${type}: (${url})`
+          })}>
           <img alt={`view-${type}`} src={img} />
           <p>view {type}</p>
         </a>

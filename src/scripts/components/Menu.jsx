@@ -13,6 +13,7 @@ class Menu extends Component {
         <button
           aria-label="Toggle Menu"
           className={this.determineClassName()}
+          id="Menu__open"
           onClick={this.props.menuOpen ? this.props.closeMenu : this.props.openMenu}>
           <span></span>
           <span></span>
@@ -22,16 +23,13 @@ class Menu extends Component {
         <nav className="Menu__nav">
           <ul className="Menu__links">
             <li className="Menu__link-container">
-              <Link to='/'>Home</Link>
+              <Link to='/' onClick={this.props.closeMenu}>Home</Link>
             </li>
             <li className="Menu__link-container">
-              <Link to='/projects'>Projects</Link>
+              <Link to='/projects' onClick={this.props.closeMenu}>Projects</Link>
             </li>
             <li className="Menu__link-container">
-              <Link to='/resume'>Resume</Link>
-            </li>
-            <li className="Menu__link-container">
-              <div onClick={this.props.openModal}>Contact Me</div>
+              <Link to='/resume' onClick={this.props.closeMenu}>Resume</Link>
             </li>
           </ul>
         </nav>

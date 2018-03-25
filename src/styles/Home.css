@@ -95,6 +95,7 @@
 @media (max-width: 700px) {
   .Home-section, .Home-overlay {
     height: 100%;
+    min-height: 400px;
   }
   .Home-overlay h2 {
     margin-top: 0;

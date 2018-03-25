@@ -10,6 +10,7 @@ import awardData from '../../data/awards';
 import Certificate from './Certificate'
 import certificateData from '../../data/certificates';
 import resumePDF from '../../data/files/RaymondFerrellResume.pdf';
+import ReactGA from 'react-ga';
 import '../../styles/Resume.css';
 
 class Resume extends Component {
@@ -25,7 +26,12 @@ class Resume extends Component {
         <ResumeInfo contactInfo={contactInfoData} />
         <div className="Resume__content">
           <a className="Resume__download-link" href={resumePDF} target="_blank">
-            <button className="Resume__download-button">download resume pdf</button>
+            <button className="Resume__download-button"
+            onClick={() => ReactGA.event({
+                category: 'Resume',
+                action: 'Downloaded Resume'
+              })
+            }>download resume pdf</button>
           </a>
           <div className="Experiences Resume__experience">
             <h2>Experiences</h2>

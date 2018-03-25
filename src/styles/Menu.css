@@ -109,3 +109,9 @@
   font-size: 3rem;
   cursor: pointer;
 }
+
+@media (max-height: 400px) {
+  .Menu__link-container a, .Menu__link-container div {
+    font-size: 2rem;
+  }
+}

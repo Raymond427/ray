@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactGA from 'react-ga';
 import '../../styles/Certificate.css';
 
 class Certificate extends Component {
@@ -14,7 +15,11 @@ class Certificate extends Component {
               <h3 className="Certificate__name">{this.props.name}</h3>
               <h4 className="Certificate__school">{this.props.school}</h4>
             </div>
-            <a className="Certificate__verify" href={this.props.url} target="blank">Verify</a>
+            <a className="Certificate__verify" href={this.props.url} target="blank"
+            onClick={() => ReactGA.event({
+              category: 'Resume',
+              action: `Verified ${this.props.name} Certificate`
+            })}>Verify</a>
           </div>
           <ul className="Certificate__descriptions">
             {descriptions}

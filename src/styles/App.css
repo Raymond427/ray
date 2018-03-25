@@ -23,6 +23,7 @@ button, input[type="submit"] {
   border: none;
   cursor: pointer;
   font-size: 1rem;
+  box-shadow: 0 0.44rem 0.625rem 0 rgba(0, 0, 0, .25);
 }
 
 @media (max-width: 520px) {

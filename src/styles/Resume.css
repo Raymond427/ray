@@ -56,6 +56,12 @@
   margin-top: 0;
 }
 
+.Certificate__verify {
+  margin-left: auto;
+  cursor: pointer;
+  font-weight: bold;
+}
+
 .Experience__container, .Certificate__container {
   display: flex;
   flex-direction: row;

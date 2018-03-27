@@ -2,6 +2,7 @@
   width: 4rem;
   height: 4rem;
   position: fixed;
+  -webkit-backface-visibility: hidden;
   top: 1rem;
   left: 1rem;
   z-index: 99999;
@@ -25,6 +26,7 @@
 .Menu__button span {
   display: block;
   position: fixed;
+  -webkit-backface-visibility: hidden;
   height: 0.4rem;
   width: 55%;
   background: #FFFFFF;
@@ -82,6 +84,7 @@
 .Menu__nav {
   top: 0;
   position: fixed;
+  -webkit-backface-visibility: hidden;
   min-width: 20rem;
   height: 100vh;
   background-color: #34495E;

@@ -38,6 +38,6 @@ describe('Experience', () => {
     expect(wrapper.find('.Experience__title').length).toEqual(1);
   });
   it('renders the job achievements', () => {
-    expect(wrapper.find('.Experience__achievement').length).toBeGreaterThan(0);
+    expect(wrapper.find('.Experience__achievement').length).toBeGreaterThan(-1);
   });
 });

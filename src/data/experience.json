@@ -3,6 +3,17 @@
   [
     {
       "id": 1,
+      "title": "Software Engineer",
+      "company": "Credit Karma",
+      "logo": "creditKarma.png",
+      "startDate": "December 2017",
+      "endDate": "Present",
+      "location": "Charlotte, NC",
+      "achievements": [
+      ]
+    },
+    {
+      "id": 2,
       "title": "Software Engineer & Co-Founder",
       "company": "Youxpert",
       "logo": "youxpertIcon.png",
@@ -25,7 +36,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Full Stack Software Engineering Intern",
       "company": "Carbon Five",
       "logo": "carbonFive.png",
@@ -57,7 +68,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Full Stack Software Engineering Intern",
       "company": "Hewlett-Packard",
       "logo": "hp.png",
@@ -83,7 +94,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "College of Engineering Dean's Office Assistant",
       "company": "The University of North Carolina at Charlotte",
       "logo": "unccIcon.png",

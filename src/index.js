@@ -33,3 +33,4 @@ ReactDOM.render(
   document.getElementById('root'));
 
 registerServiceWorker();
+ReactGA.pageview(window.location.hash.slice(1) + window.location.search);

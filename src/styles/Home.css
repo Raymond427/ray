@@ -25,7 +25,7 @@
 
 .Home-content {
   position: relative;
-  z-index: 999999;
+  z-index: 9999;
   width: 70rem;
   margin: 0 auto;
   text-align: center;
@@ -110,6 +110,10 @@
 }
 
 @media (max-width: 375px) {
+  .Home-content h1 {
+    max-width: 300px;
+    margin: 0 auto;
+  }
   .Home-content h3 {
     max-width: 300px;
   }

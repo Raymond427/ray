@@ -2,8 +2,8 @@
   {
     "id": 1,
     "name": "Personal Site",
-    "type": "React and Redux Progressive Web Application",
-    "description": "I designed and built this site from scratch! It uses React, manages state with Redux and is hosted on GitHub Pages. I used Facebook's Jest and Airbnb's Enzyme libraries to write eighty-seven unit tests to polish my Test Driven Development skills. I also wanted to ensure the app met most PWA standards to make accessing the app more convenient",
+    "type": "React Progressive Web Application",
+    "description": "I designed and built this site from scratch! It uses React, manages state with React's new Context API and is hosted on GitHub Pages. I used Facebook's Jest and Airbnb's Enzyme libraries to write eighty-seven unit tests to polish my Test Driven Development skills. I also wanted to ensure the app met most PWA standards to make accessing the app more convenient",
     "img": "personalSite.jpg",
     "codeURL": "https://github.com/Raymond427/ray",
     "siteURL": "https://www.raymondferrell.com",

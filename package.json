@@ -4,26 +4,20 @@
   "private": true,
   "homepage": "https://Raymond427.github.io/ray",
   "dependencies": {
-    "history": "^4.7.2",
     "jest-cli": "^20.0.4",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
     "react-ga": "^2.4.1",
-    "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
-    "react-router-redux": "^5.0.0-alpha.9",
     "react-slick": "^0.17.1",
-    "react-transition-group": "^2.2.1",
-    "redux": "^3.7.2",
-    "redux-logger": "^3.0.6"
+    "react-transition-group": "^2.3.0"
   },
   "devDependencies": {
     "enzyme": "^3.3.0",
-    "gh-pages": "^1.1.0",
     "enzyme-adapter-react-16": "^1.1.1",
-    "jest-enzyme": "^4.1.1",
-    "react-scripts": "1.0.17",
-    "redux-devtools": "^3.4.1"
+    "gh-pages": "^1.1.0",
+    "jest-enzyme": "^4.2.0",
+    "react-scripts": "1.0.17"
   },
   "scripts": {
     "start": "react-scripts start",

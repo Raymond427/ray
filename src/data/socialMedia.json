@@ -22,5 +22,11 @@
     "name": "angellist",
     "url": "https://angel.co/raymond-ferrell",
     "img": "angelListIcon.png"
+  },
+  {
+    "id": 4,
+    "name": "email",
+    "url": "mailto:rferrel427@gmail.com",
+    "img": "email.svg"
   }
 ]

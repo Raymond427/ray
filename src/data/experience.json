@@ -69,6 +69,29 @@
     },
     {
       "id": 4,
+      "title": "2016 Fellow",
+      "company": "CODE2040",
+      "logo": "code2040Icon.png",
+      "startDate": "June 2016",
+      "endDate": "August 2016",
+      "location": "San Francisco, CA",
+      "achievements": [
+        { "id": 1,
+          "description": "Selected to be one of eighty-seven fellows out of nine hundred applicants for an intensive summer career accelerator in San Francisco"
+        },
+        { "id": 2,
+          "description": "Participated in a series of career building sessions on evenings and weekends at startups throughout the city"
+        },
+        { "id": 3,
+          "description": "Voted Most Likely to Become an Entrepreneur"
+        },
+        { "id": 4,
+          "description": "Went to workshops and networking events at the offices of: Galvanize, Carbon Five, Stitch Fix, Macy's, Twitter, Clover Health, Medium, NerdWallet, GitHub, CircleCI, Stripe, Envoy, TaskRabbit, Slack, Google and LinkedIn"
+        }
+      ]
+    },
+    {
+      "id": 5,
       "title": "Full Stack Software Engineering Intern",
       "company": "Hewlett-Packard",
       "logo": "hp.png",
@@ -94,7 +117,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "College of Engineering Dean's Office Assistant",
       "company": "The University of North Carolina at Charlotte",
       "logo": "unccIcon.png",

@@ -1,6 +1,20 @@
 [
   {
     "id": 1,
+    "name": "Design Sprint Foundations Nanodegree",
+    "school": "Udacity",
+    "logo": "udacity.svg",
+    "dateRecieved": "March 2018",
+    "url": "https://confirm.udacity.com/F4DCKAJW",
+    "skillsLearned": [
+      {
+        "id": 1,
+        "description": "Learned the creative problem-solving process called the Design Sprint. Used by Google Ventures and AJ&Smart to create product concepts and growth strategies"
+      }
+    ]
+  },
+  {
+    "id": 2,
     "name": "Introduction to Computer Science",
     "school": "MIT",
     "logo": "mit.png",
@@ -18,7 +32,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Engineering Software As A Service",
     "school": "UC Berkeley",
     "logo": "ucBerkeley.png",
@@ -36,7 +50,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Leaders of Learning",
     "school": "Harvard",
     "logo": "harvard.png",
@@ -50,7 +64,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "HTML5: Web Design Fundamentals",
     "school": "W3C",
     "logo": "w3c.png",
@@ -64,7 +78,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Introduction to Educational Technology",
     "school": "MIT",
     "logo": "mit.png",
@@ -78,7 +92,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Introduction to Cloud Computing",
     "school": "IEEE",
     "logo": "ieee.png",

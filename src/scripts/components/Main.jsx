@@ -11,7 +11,7 @@ const defaultStyle = {
   position: 'absolute',
   boxShadow: '0 0.44rem 0.625rem 0 rgba(0, 0, 0, .25)',
   left: 0,
-}
+};
 
 const transitionStyles = {
   true: { left: '20rem' },

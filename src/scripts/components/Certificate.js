@@ -18,7 +18,8 @@ class Certificate extends Component {
             <a className="Certificate__verify" href={this.props.url} target="blank"
             onClick={() => ReactGA.event({
               category: 'Resume',
-              action: `Verified ${this.props.name} Certificate`
+              action: 'Verified Certificate',
+              label: `${this.props.name}`
             })}>Verify</a>
           </div>
           <ul className="Certificate__descriptions">

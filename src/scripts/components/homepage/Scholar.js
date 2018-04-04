@@ -32,7 +32,7 @@ class Scholar extends Component {
   }
 
   _renderCertificates() {
-    return certificateData.map((cert) =>
+    return certificateData.slice(0, 6).map((cert) =>
       <Certificate
         key={cert.id}
         type={`home`}

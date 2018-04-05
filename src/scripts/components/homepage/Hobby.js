@@ -28,6 +28,7 @@ class Hobby extends Component {
           logo={org.logo}
           img={org.img}
           description={org.description}
+          url={org.url}
           key={org.id}/>
       )
     );

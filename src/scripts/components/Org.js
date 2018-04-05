@@ -7,7 +7,10 @@ class Org extends Component {
       <div className="Org" style={{backgroundImage: `url(${require(`../../images/${this.props.img}`)})`}}>
         <div className="Org__shade">
           <img className="Org__logo" alt={this.props.name} src={require(`../../images/${this.props.logo}`)}/>
-          <p>{this.props.description}</p>
+          <div className="Org__description-wrapper">
+            <p className="Org__description">{this.props.description}</p>
+            <a className="Org__url" href={this.props.url} target="_blank">Learn More</a>
+          </div>
         </div>
       </div>
     );

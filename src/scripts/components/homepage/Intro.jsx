@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
-import SocialMediaLink from '../SocialMediaLink.js';
+import SocialMediaLink from '../SocialMediaLink';
 import socialMediaData from '../../../data/socialMedia.json';
 import googleVisit from '../../../images/googleVisit.jpg';
 import hackathon from '../../../images/hackathon.jpg';

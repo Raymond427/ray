@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { Router } from 'react-router-dom';
 import './styles/index.css';
 import App from './scripts/components/App';
-//import registerServiceWorker from './scripts/registerServiceWorker';
 import createHistory from 'history/createBrowserHistory';
 import ReactGA from 'react-ga';
 
@@ -21,4 +20,3 @@ ReactDOM.render(
   document.getElementById('root'));
 
 ReactGA.pageview('/');
-//registerServiceWorker();

@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://Raymond427.github.io/ray",
   "dependencies": {
-    "jest-cli": "^20.0.4",
+    "ajv": "^6.5.2",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
     "react-ga": "^2.4.1",
@@ -15,16 +15,14 @@
   "devDependencies": {
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
-    "gh-pages": "^1.1.0",
     "jest-enzyme": "^4.2.0",
-    "react-scripts": "1.0.17"
+    "react-scripts": "^1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --runInBand",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   }
 }

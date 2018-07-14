@@ -1,14 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter, Route } from 'react-router-dom';
+import { Router } from 'react-router-dom';
 import './styles/index.css';
 import App from './scripts/components/App';
-import registerServiceWorker from './scripts/registerServiceWorker';
-import GoogleAnalyticsTracker from './scripts/modules/GoogleAnalyticsTracker';
+//import registerServiceWorker from './scripts/registerServiceWorker';
+import createHistory from 'history/createBrowserHistory';
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-115926230-1');
+const history = createHistory()
+history.listen((location, action) => {
+  ReactGA.set({ page: location.pathname });
+  ReactGA.pageview(location.pathname);
+});
 
 ReactDOM.render(
-  <HashRouter>
-    <Route component={GoogleAnalyticsTracker(App)} />
-  </HashRouter>,
+  <Router history={history}>
+    <App />
+  </Router>,
   document.getElementById('root'));
-registerServiceWorker();
+
+ReactGA.pageview('/');
+//registerServiceWorker();

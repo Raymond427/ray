@@ -12,13 +12,15 @@ describe('Org', () => {
     ).exists()).toEqual(true);
   });
 
-  const mockOrg = { id: 1, name: "fizz", logo: "code.png", img: "code.png", description: "buzz", url:"#" };
+  const mockOrg = { id: 1, name: "fizz", logo: "code.png", img: "code.png", description: "buzz", url:"#", linkDescription: "Check Out Fizz" };
   const wrapperElement = shallow(
     <Org
       name={mockOrg.name}
       img={mockOrg.img}
       logo={mockOrg.logo}
-      description={mockOrg.description}/>
+      description={mockOrg.description}
+      url={mockOrg.url}
+      linkDescription={mockOrg.linkDescription}/>
   ).getElements()[0];
 
   const imgElement = wrapperElement.props.children.props.children[0];
@@ -42,6 +44,6 @@ describe('Org', () => {
 
   it('renders the org link', ()=> {
     expect(aElement.type).toEqual('a');
-    expect(aElement.props.children).toEqual("Learn More");
+    expect(aElement.props.children).toEqual("Check Out Fizz");
   });
 });

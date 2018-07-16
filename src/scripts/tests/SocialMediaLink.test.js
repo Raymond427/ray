@@ -24,7 +24,7 @@ describe('SocialMediaLink', () => {
   it('renders the social media link', () => {
     expect(aElement.className).toEqual('SocialMediaLink');
     expect(aElement.href).toEqual(mockSocialMediaLink.url);
-    expect(aElement.target).toEqual('blank');
+    expect(aElement.target).toEqual('_blank');
   });
 
   it('renders the social media link image', ()=> {

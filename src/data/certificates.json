@@ -1,6 +1,19 @@
 [
   {
     "id": 1,
+    "name": "Introduction to Product Management",
+    "school": "Stanford University",
+    "logo": "stanford.png",
+    "dateRecieved": "June 2018",
+    "skillsLearned": [
+      {
+        "id": 1,
+        "description": "Studied how to interview potential users, find a product-market fit, test prototypes with customers and create product roadmaps"
+      }
+    ]
+  },
+  {
+    "id": 2,
     "name": "Design Sprint Foundations Nanodegree",
     "school": "Udacity",
     "logo": "udacity.svg",
@@ -14,7 +27,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Introduction to Computer Science",
     "school": "MIT",
     "logo": "mit.png",
@@ -32,7 +45,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Engineering Software As A Service",
     "school": "UC Berkeley",
     "logo": "ucBerkeley.png",
@@ -50,7 +63,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Leaders of Learning",
     "school": "Harvard",
     "logo": "harvard.png",
@@ -64,7 +77,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "HTML5: Web Design Fundamentals",
     "school": "W3C",
     "logo": "w3c.png",
@@ -78,7 +91,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Introduction to Educational Technology",
     "school": "MIT",
     "logo": "mit.png",
@@ -92,7 +105,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Introduction to Cloud Computing",
     "school": "IEEE",
     "logo": "ieee.png",

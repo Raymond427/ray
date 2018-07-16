@@ -26,7 +26,7 @@ class Project extends Component {
   _renderLinkIfPresent(url, type, img) {
     if (url) {
       return(
-        <a className={`Project__view-${type}`} href={url}
+        <a className={`Project__view-${type}`} href={url} target="_blank" rel="noopener"
           onClick={() => ReactGA.event({
             category: 'Project',
             action: `Viewed ${type}: (${url})`

@@ -4,7 +4,7 @@ import ReactGA from 'react-ga';
 class SocialMediaLink extends Component {
   render() {
     return(
-      <a className="SocialMediaLink" href={this.props.url} target="blank"
+      <a className="SocialMediaLink" href={this.props.url} target="_blank" rel="noopener"
       onClick={() => ReactGA.event({
           category: 'Social Media',
           action: `Visited ${this.props.name}`

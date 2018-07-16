@@ -15,12 +15,15 @@ class Certificate extends Component {
               <h3 className="Certificate__name">{this.props.name}</h3>
               <h4 className="Certificate__school">{this.props.school}</h4>
             </div>
-            <a className="Certificate__verify" href={this.props.url} target="blank"
-            onClick={() => ReactGA.event({
-              category: 'Resume',
-              action: 'Verified Certificate',
-              label: `${this.props.name}`
-            })}>Verify</a>
+            {
+              this.props.url &&
+              <a className="Certificate__verify" href={this.props.url} target="_blank" rel="noopener"
+              onClick={() => ReactGA.event({
+                category: 'Resume',
+                action: 'Verified Certificate',
+                label: `${this.props.name}`
+              })}>Verify</a>
+            }
           </div>
           <ul className="Certificate__descriptions">
             {descriptions}

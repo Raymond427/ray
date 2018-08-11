@@ -9,3 +9,6 @@ http://www.raymondferrell.com/* https://raymondferrell.com/:splat 301!
 http://raymondferrell.com/* https://raymondferrell.com/:splat 301!
 
 /ray/* /:splat 301!
+
+# Allows SPA pages to load
+/* /index.html 200

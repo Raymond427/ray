@@ -37,9 +37,9 @@
 }
 .Experience__logo, .Certificate__logo {
   float: left;
-  max-width: 8rem;
-  height: 5rem;
+  max-height: 5rem;
   width: auto;
+  height: auto;
 }
 
 .Experience__title, .Certificate__name, .Publication__title, .Award__title {
@@ -52,8 +52,6 @@
 
 .Experience__date, .Publication__date, .Award__date-received, .Certificate__verify {
   display: inline;
-  float: right;
-  margin-top: 0;
 }
 
 .Certificate__verify {

@@ -62,7 +62,10 @@
 }
 
 @media (max-width: 700px) {
-  .Intro__background, .Intro__background-image, .slick-list, .slick-track, .slick-track img {
+  .slick-track {
+    height: 600px;
+  }
+  .Intro__background, .Intro__background-image, .slick-list {
     min-height: 600px;
   }
 }

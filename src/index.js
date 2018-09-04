@@ -5,6 +5,7 @@ import './styles/index.css';
 import App from './scripts/components/App';
 import createHistory from 'history/createBrowserHistory';
 import ReactGA from 'react-ga';
+import ScrollToTop from './scripts/components/ScrollToTop';
 
 ReactGA.initialize('UA-115926230-1');
 const history = createHistory()
@@ -15,8 +16,11 @@ history.listen((location, action) => {
 
 ReactDOM.render(
   <Router history={history}>
-    <App />
+    <ScrollToTop>
+      <App />
+    </ScrollToTop>
   </Router>,
-  document.getElementById('root'));
+  document.getElementById('root')
+);
 
 ReactGA.pageview('/');

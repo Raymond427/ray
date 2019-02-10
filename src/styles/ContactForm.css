@@ -14,7 +14,7 @@ input {
 }
 
 input[type="text"], input[type="email"], input[type="phone_number"], textarea {
-  border: #4AA3DF solid 0.1rem;
+  border: #1E77B3 solid 0.1rem;
   background-color: #34495E;
   border-radius: 0.5rem;
   padding: 0.5rem;

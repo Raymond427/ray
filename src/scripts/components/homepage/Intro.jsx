@@ -33,7 +33,7 @@ class Intro extends Component {
           <h3>I'm a Community Volunteer, Entrepreneur, Software Engineer and
           Web Designer. I'm interested in creating software that helps
           underprivileged people find their passion and reach their potential.</h3>
-          <Link className="Home-content__link" to='/resume'><button
+          <Link className="Home-content__link" to='/resume' tabIndex='-1'><button
           onClick={() => ReactGA.event({
             category: 'Homepage',
             action: `Clicked Resume Button`
@@ -42,7 +42,7 @@ class Intro extends Component {
           onClick={() => ReactGA.event({
             category: 'Homepage',
             action: `Clicked Projects Button`
-          })}><button>check out my projects</button></Link>
+          })} tabIndex='-1'><button>check out my projects</button></Link>
         </div>
       </div>
     );

@@ -16,7 +16,7 @@ class SoftwareEngineer extends Component {
             <h2>Software Engineer</h2>
             <h4>I'm a full stack software engineer that has worked for
             Hewlett Packard in Oregon and Carbon Five in San Francisco.</h4>
-            <Link to='/projects'><button className="SoftwareEngineer__project-button"
+            <Link to='/projects' tabIndex='-1'><button className="SoftwareEngineer__project-button"
             onClick={() => ReactGA.event({
               category: 'Homepage',
               action: `Clicked Software Engineering Projects Button`

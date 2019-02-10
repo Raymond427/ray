@@ -17,7 +17,7 @@ class Scholar extends Component {
             <h4>I'm an advocate for making education more accessible using
             technology, my biggest hobby is collecting certificates from
             online university courses</h4>
-            <Link to='/projects'><button
+            <Link to='/projects' tabIndex='-1'><button
             onClick={() => ReactGA.event({
               category: 'Homepage',
               action: `Clicked Scholar Projects Button`

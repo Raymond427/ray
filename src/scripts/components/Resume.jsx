@@ -25,7 +25,7 @@ class Resume extends Component {
       <div className="Resume">
         <ResumeInfo contactInfo={contactInfoData} />
         <div className="Resume__content">
-          <a className="Resume__download-link" href={resumePDF} target="_blank" rel="noopener">
+          <a className="Resume__download-link" href={resumePDF} target="_blank" rel="noopener" tabIndex="-1">
             <button className="Resume__download-button"
             onClick={() => ReactGA.event({
                 category: 'Resume',

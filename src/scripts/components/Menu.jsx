@@ -22,13 +22,13 @@ class Menu extends Component {
               <nav className="Menu__nav">
                 <ul className="Menu__links">
                   <li className="Menu__link-container">
-                    <Link to='/' onClick={context.closeMenu}>Home</Link>
+                    <Link to='/' tabIndex={context.state.menuOpen ? '0' : '-1'} onClick={context.closeMenu}>Home</Link>
                   </li>
                   <li className="Menu__link-container">
-                    <Link to='/projects' onClick={context.closeMenu}>Projects</Link>
+                    <Link to='/projects' tabIndex={context.state.menuOpen ? '0' : '-1'} onClick={context.closeMenu}>Projects</Link>
                   </li>
                   <li className="Menu__link-container">
-                    <Link to='/resume' onClick={context.closeMenu}>Resume</Link>
+                    <Link to='/resume' tabIndex={context.state.menuOpen ? '0' : '-1'} onClick={context.closeMenu}>Resume</Link>
                   </li>
                 </ul>
               </nav>

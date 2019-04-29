@@ -1,7 +1,7 @@
 .ContactForm {
   width: 50rem;
   height: 40rem;
-  background-color: #34495E;
+  background-color: #273b56;
   margin-top: 5rem;
   border-radius: 3rem;
   padding: 2rem;
@@ -14,8 +14,8 @@ input {
 }
 
 input[type="text"], input[type="email"], input[type="phone_number"], textarea {
-  border: #1E77B3 solid 0.1rem;
-  background-color: #34495E;
+  border: #3498DB solid 0.1rem;
+  background-color: #273b56;
   border-radius: 0.5rem;
   padding: 0.5rem;
   color: #FFFFFF;

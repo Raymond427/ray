@@ -3,13 +3,28 @@
   [
     {
       "id": 1,
-      "title": "Software Engineer",
+      "title": "Software Engineer II",
       "company": "Credit Karma",
       "logo": "creditKarma.png",
       "startDate": "December 2017",
       "endDate": "Present",
       "location": "Charlotte, NC",
       "achievements": [
+        { "id": 1,
+          "description": "Added features to the tax filing product using React, Redux, Emotion, and Spring"
+        },
+        { "id": 2,
+          "description": "Helped add monetization to the tax product for the first time using GraphQL"
+        },
+        { "id": 3,
+          "description": "Created APIs for the native app to communicate with the fraud detection service using PHP, TypeScript and GraphQL"
+        },
+        { "id": 4,
+          "description": "Added fraud detection logic to the legacy codebase using PHP"
+        },
+        { "id": 5,
+          "description": "Created interactive graphs using tax data with React, Victory.js and GraphQL"
+        }
       ]
     },
     {

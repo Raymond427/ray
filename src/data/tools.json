@@ -15,60 +15,60 @@
     "id": 3,
     "name": "JavaScript",
     "img": "javascript.png",
-    "skillLevel": 95
+    "skillLevel": 100
   },
   {
     "id": 4,
+    "name": "GitHub",
+    "img": "github.png",
+    "skillLevel": 100
+  },
+  {
+    "id": 5,
+    "name": "React",
+    "img": "react.png",
+    "skillLevel": 100
+  },
+  {
+    "id": 6,
+    "name": "Redux",
+    "img": "redux.png",
+    "skillLevel": 90
+  },
+  {
+    "id": 7,
     "name": "Ruby",
     "img": "ruby.png",
     "skillLevel": 80
   },
   {
-    "id": 5,
-    "name": "Python",
-    "img": "python.png",
-    "skillLevel": 60
-  },
-  {
-    "id": 6,
+    "id": 8,
     "name": "Rails",
     "img": "rails.png",
     "skillLevel": 70
   },
   {
-    "id": 7,
-    "name": "React",
-    "img": "react.png",
-    "skillLevel": 80
-  },
-  {
-    "id": 8,
-    "name": "Redux",
-    "img": "redux.png",
+    "id": 9,
+    "name": "Python",
+    "img": "python.png",
     "skillLevel": 60
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "Heroku",
     "img": "heroku.png",
     "skillLevel": 60
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Ubuntu",
     "img": "ubuntu.png",
     "skillLevel": 60
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "PostgreSQL",
     "img": "postgresql.png",
     "skillLevel": 70
-  },
-  {
-    "id": 12,
-    "name": "GitHub",
-    "img": "github.png",
-    "skillLevel": 80
   }
 ]

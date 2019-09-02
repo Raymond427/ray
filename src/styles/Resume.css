@@ -32,6 +32,13 @@
   margin: 3rem 0;
 }
 
+.Experience__date {
+  margin-top: 0;
+  align-items: flex-start;
+  flex-grow: 2;
+  text-align: right;
+}
+
 .Experience h4:last-child {
   margin-bottom: 0;
 }
@@ -50,7 +57,7 @@
   margin: 0 2rem;
 }
 
-.Experience__date, .Publication__date, .Award__date-received, .Certificate__verify {
+.Publication__date, .Award__date-received, .Certificate__verify {
   display: inline;
 }
 

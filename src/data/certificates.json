@@ -1,6 +1,48 @@
 [
   {
     "id": 1,
+    "name": "Mobile Web Specialist",
+    "school": "Google",
+    "logo": "google.svg",
+    "dateRecieved": "September 2019",
+    "url": "https://www.credential.net/pqntv37u?_ga=2.191728937.2068057721.1569077993-194932704.1567473467",
+    "skillsLearned": [
+      {
+        "id": 1,
+        "description": "Build a web app’s responsive layout and style appropriate to the user’s device using only HTML, CSS, and JavaScript without the overhead of libraries or frameworks (such as jQuery)"
+      },
+      {
+        "id": 2,
+        "description": "Use JavaScript to set up reliable front-end networking protocols with appropriate error handling"
+      },
+      {
+        "id": 3,
+        "description": "Use accessibility best practices to make web apps accessible to all users, including those with visual, motor, hearing, and cognitive impairments"
+      },
+      {
+        "id": 4,
+        "description": "Create progressive web apps that are available offline and provide a consistent, native-app-like experience"
+      },
+      {
+        "id": 5,
+        "description": "Audit an app's performance to reduce page load times and maintain responsive user experiences"
+      },
+      {
+        "id": 6,
+        "description": "Write unit tests that verify expected behaviors and diagnose common web-app problems"
+      },
+      {
+        "id": 7,
+        "description": "Implement ES2015 syntax to perform common JavaScript tasks"
+      },
+      {
+        "id": 8,
+        "description": "Design efficient and secure web forms with basic HTML in order to improve the user experience"
+      }
+    ]
+  },
+  {
+    "id": 2,
     "name": "Introduction to Product Management",
     "school": "Stanford University",
     "logo": "stanford.png",
@@ -13,7 +55,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Design Sprint Foundations Nanodegree",
     "school": "Udacity",
     "logo": "udacity.svg",
@@ -27,7 +69,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Introduction to Computer Science",
     "school": "MIT",
     "logo": "mit.png",
@@ -45,7 +87,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Engineering Software As A Service",
     "school": "UC Berkeley",
     "logo": "ucBerkeley.png",
@@ -63,7 +105,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Leaders of Learning",
     "school": "Harvard",
     "logo": "harvard.png",
@@ -77,7 +119,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "HTML5: Web Design Fundamentals",
     "school": "W3C",
     "logo": "w3c.png",
@@ -91,7 +133,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Introduction to Educational Technology",
     "school": "MIT",
     "logo": "mit.png",
@@ -105,7 +147,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Introduction to Cloud Computing",
     "school": "IEEE",
     "logo": "ieee.png",

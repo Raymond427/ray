@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://Raymond427.github.io/ray",
   "dependencies": {
-    "ajv": "^6.10.0",
+    "ajv": "^6.12.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-ga": "^2.5.7",
